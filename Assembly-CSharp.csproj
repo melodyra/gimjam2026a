@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\startgame.cs" />
+    <Compile Include="Assets\Script\switchload.cs" />
     <Compile Include="Assets\Script\Volumesetting.cs" />
   </ItemGroup>
   <ItemGroup>
