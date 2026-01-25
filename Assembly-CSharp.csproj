@@ -65,10 +65,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\startgame.cs" />
+    <Compile Include="Assets\sfx.cs" />
+    <Compile Include="Assets\Script\SFXsetting.cs" />
     <Compile Include="Assets\Script\quit.cs" />
     <Compile Include="Assets\Script\switchload.cs" />
+    <Compile Include="Assets\Script\BGMsetting.cs" />
     <Compile Include="Assets\Script\minimenu.cs" />
-    <Compile Include="Assets\Script\Volumesetting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
