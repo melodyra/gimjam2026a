@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 public class Volumesetting : MonoBehaviour
-{
+{   
     [SerializeField] Slider volume;
     void Start()
     {
         if (PlayerPrefs.HasKey("musicvolume"))
+        {
+            Load();
+        }
+        else
         {
             PlayerPrefs.SetFloat("musicvolume", 1);
             Load();
