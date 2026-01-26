@@ -6,15 +6,15 @@ public static class CommunityManager
     // MEMBER DEFAULT 
     private static readonly List<string> defaultMembers = new List<string>()
     {
-        "aquairo",
-        "mlmenang",
-        "mlkalah",
-        "masjidroblox",
-        "gimjamyt",
-        "robloxkembar",
-        "robloxmvp",
-        "robloxgunung",
-        "robloxdaging"
+        "NPC1",
+        "NPC2",
+        "NPC3",
+        "NPC4",
+        "NPC5",
+        "NPC6",
+        "NPC7",
+        "NPC8",
+        "NPC9"
     };
 
     public static List<string> members = new List<string>();
@@ -24,15 +24,15 @@ public static class CommunityManager
     public static Dictionary<string, NPCStat> npcStats = new Dictionary<string, NPCStat>()
     {
         // NPC AWAL
-        { "aquairo", new NPCStat(0, 50) },
-        { "mlmenang", new NPCStat(65, 20) },
-        { "mlkalah", new NPCStat(50, 50) },
-        { "masjidroblox", new NPCStat(15, 85) },
-        { "gimjamyt", new NPCStat(70, 55) },
-        { "robloxkembar", new NPCStat(35, 75) },
-        { "robloxmvp", new NPCStat(67, 45) },
-        { "robloxgunung", new NPCStat(80, 55) },
-        { "robloxdaging", new NPCStat(52, 77) },
+        { "NPC1", new NPCStat(0, 50) },
+        { "NPC2", new NPCStat(65, 20) },
+        { "NPC3", new NPCStat(50, 50) },
+        { "NPC4", new NPCStat(15, 85) },
+        { "NPC5", new NPCStat(70, 55) },
+        { "NPC6", new NPCStat(35, 75) },
+        { "NPC7", new NPCStat(67, 45) },
+        { "NPC8", new NPCStat(80, 55) },
+        { "NPC9", new NPCStat(52, 77) },
         
         // NPC HIRE (Potensial, Survival )
         { "miku", new NPCStat(57, 90) },

@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639050025147666653
+      ticks: 639050282468188620
     m_Hash: 2277806327
   m_LockFileStatus:
     m_FilePath: C:/Users/ASUS/Documents/GitHub/gimjam2026a/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639050025147677590
+      ticks: 639050282468188620
     m_Hash: 4012544076
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

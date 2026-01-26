@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 35492907}
   - component: {fileID: 35492906}
   m_Layer: 5
-  m_Name: aquairopanel
+  m_Name: NPC1panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 162907049}
   - component: {fileID: 162907048}
   m_Layer: 5
-  m_Name: aquairo
+  m_Name: NPC1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -688,7 +688,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: aquairobutton
+        m_MethodName: NPC1Button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -718,7 +718,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4e2f8e12891df964aafc50af7ac145b9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e724f2789976c854aa574baebd065336, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -881,7 +881,7 @@ GameObject:
   - component: {fileID: 181723970}
   - component: {fileID: 181723969}
   m_Layer: 5
-  m_Name: resumepanelrobloxgunung
+  m_Name: resumepanelNPC8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1104,7 +1104,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: detailmlmenang
+        m_MethodName: detailNPC2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1237,7 +1237,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: detailrobloxmvp
+        m_MethodName: detailNPC7
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1370,7 +1370,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: detailrobloxkembar
+        m_MethodName: detailNPC6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1565,7 +1565,7 @@ GameObject:
   - component: {fileID: 310630749}
   - component: {fileID: 310630748}
   m_Layer: 5
-  m_Name: robloxkembar
+  m_Name: NPC6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1637,7 +1637,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: robloxkembarbutton
+        m_MethodName: NPC6Button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1667,7 +1667,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bb6ed349c9063fc42959532b930971b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25722fb1d7ecb73468c4258502bd3323, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2099,7 +2099,7 @@ GameObject:
   - component: {fileID: 436579374}
   - component: {fileID: 436579373}
   m_Layer: 5
-  m_Name: robloxgunungpanel
+  m_Name: NPC8panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2446,7 +2446,7 @@ GameObject:
   - component: {fileID: 491186110}
   - component: {fileID: 491186109}
   m_Layer: 5
-  m_Name: mlmenangpanel
+  m_Name: NPC2panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2659,7 +2659,7 @@ GameObject:
   - component: {fileID: 510634766}
   - component: {fileID: 510634765}
   m_Layer: 5
-  m_Name: robloxdagingpanel
+  m_Name: NPC9panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2739,7 +2739,7 @@ GameObject:
   - component: {fileID: 601033964}
   - component: {fileID: 601033963}
   m_Layer: 5
-  m_Name: statsmlmenang
+  m_Name: statSNPC2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2765,7 +2765,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 15342fd798500e041b9ab0032adb45e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3894b6f0f1bcf6740a938fb32a0d1775, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3021,7 +3021,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: detailgimjamyt
+        m_MethodName: detailNPC5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3082,7 +3082,7 @@ GameObject:
   - component: {fileID: 672751496}
   - component: {fileID: 672751495}
   m_Layer: 5
-  m_Name: masjidroblox
+  m_Name: NPC4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3154,7 +3154,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: masjidrobloxbutton
+        m_MethodName: NPC4Button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3184,7 +3184,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 86d842ccaa8825c4090fccee2fec38fc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3843101206fc1c84ead24688de5314c7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3215,7 +3215,7 @@ GameObject:
   - component: {fileID: 679657776}
   - component: {fileID: 679657775}
   m_Layer: 5
-  m_Name: robloxgunung
+  m_Name: NPC8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3287,7 +3287,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: robloxgunungbutton
+        m_MethodName: NPC8Button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3317,7 +3317,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2a32e19433eab324eb06c0c924e17236, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 01e2d4cb8770a54439e6e551c7f0c212, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3794,7 +3794,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: detailrobloxdaging
+        m_MethodName: detailNPC9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3854,7 +3854,7 @@ GameObject:
   - component: {fileID: 691742807}
   - component: {fileID: 691742806}
   m_Layer: 5
-  m_Name: resumepanelmlmenang
+  m_Name: resumepanelNPC2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4330,7 +4330,7 @@ GameObject:
   - component: {fileID: 724975241}
   - component: {fileID: 724975240}
   m_Layer: 5
-  m_Name: resumepanelrobloxkembar
+  m_Name: resumepanelNPC6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4765,7 +4765,7 @@ GameObject:
   - component: {fileID: 798194527}
   - component: {fileID: 798194526}
   m_Layer: 5
-  m_Name: statsmlkalah
+  m_Name: statsNPC3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4791,7 +4791,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5c277287ef3900d44a4315ba19702aa2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5ace1e3087e0d9f4cb8daae8b66b67c8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4974,7 +4974,7 @@ GameObject:
   - component: {fileID: 868264442}
   - component: {fileID: 868264441}
   m_Layer: 5
-  m_Name: mlmenang
+  m_Name: NPC2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5046,7 +5046,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: mlmenangbutton
+        m_MethodName: NPC2Button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5076,7 +5076,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 15342fd798500e041b9ab0032adb45e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3894b6f0f1bcf6740a938fb32a0d1775, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5240,7 +5240,7 @@ GameObject:
   - component: {fileID: 907757853}
   - component: {fileID: 907757852}
   m_Layer: 5
-  m_Name: resumepanelrobloxmvp
+  m_Name: resumepanelNPC7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5449,7 +5449,7 @@ GameObject:
   - component: {fileID: 921287734}
   - component: {fileID: 921287733}
   m_Layer: 5
-  m_Name: statsgimjamyt
+  m_Name: statsNPC5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5494,7 +5494,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 434fc5af67399dc49b25a73d50d906c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4edfbcf198e79f44a9ab9217d8122fdc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5524,7 +5524,7 @@ GameObject:
   - component: {fileID: 924625461}
   - component: {fileID: 924625460}
   m_Layer: 5
-  m_Name: robloxkembarpanel
+  m_Name: NPC6panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5872,7 +5872,7 @@ GameObject:
   - component: {fileID: 945533195}
   - component: {fileID: 945533194}
   m_Layer: 5
-  m_Name: statsrobloxdaging
+  m_Name: statsNPC9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5917,7 +5917,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd7d02ca6cb51224c8669387d2027659, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0891eb47146efcf4e85f2369037e3de0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6153,7 +6153,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: detailmlkalah
+        m_MethodName: detailNPC3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7083,7 +7083,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: detailaquairo
+        m_MethodName: detailNPC1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7144,7 +7144,7 @@ GameObject:
   - component: {fileID: 1065580238}
   - component: {fileID: 1065580237}
   m_Layer: 5
-  m_Name: gimjamyt
+  m_Name: NPC5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7216,7 +7216,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: gimjamytbutton
+        m_MethodName: NPC5Button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7246,7 +7246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 434fc5af67399dc49b25a73d50d906c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4edfbcf198e79f44a9ab9217d8122fdc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7276,7 +7276,7 @@ GameObject:
   - component: {fileID: 1145612194}
   - component: {fileID: 1145612193}
   m_Layer: 5
-  m_Name: statsrobloxmvp
+  m_Name: statsNPC7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7321,7 +7321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fc0356991ebecd94d8c4ea60d8a7a697, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d22883ff691941d4bb2bdd1be1880969, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7351,7 +7351,7 @@ GameObject:
   - component: {fileID: 1176556422}
   - component: {fileID: 1176556421}
   m_Layer: 5
-  m_Name: statsrobloxkembar
+  m_Name: statsNPC6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7396,7 +7396,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bb6ed349c9063fc42959532b930971b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25722fb1d7ecb73468c4258502bd3323, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7559,7 +7559,7 @@ GameObject:
   - component: {fileID: 1226543661}
   - component: {fileID: 1226543660}
   m_Layer: 5
-  m_Name: statsaquairo
+  m_Name: statSNPC1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7585,7 +7585,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4e2f8e12891df964aafc50af7ac145b9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e724f2789976c854aa574baebd065336, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7634,7 +7634,7 @@ GameObject:
   - component: {fileID: 1248232163}
   - component: {fileID: 1248232162}
   m_Layer: 5
-  m_Name: robloxmvppanel
+  m_Name: NPC7panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7714,7 +7714,7 @@ GameObject:
   - component: {fileID: 1265889106}
   - component: {fileID: 1265889105}
   m_Layer: 5
-  m_Name: resumepanelmlkalah
+  m_Name: resumepanelNPC3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8589,7 +8589,7 @@ GameObject:
   - component: {fileID: 1428045698}
   - component: {fileID: 1428045697}
   m_Layer: 5
-  m_Name: robloxdaging
+  m_Name: NPC9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8661,7 +8661,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: robloxdagingbutton
+        m_MethodName: NPC9Button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8691,7 +8691,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd7d02ca6cb51224c8669387d2027659, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0891eb47146efcf4e85f2369037e3de0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9083,7 +9083,7 @@ GameObject:
   - component: {fileID: 1491755208}
   - component: {fileID: 1491755207}
   m_Layer: 5
-  m_Name: resumepanelrobloxdaging
+  m_Name: resumepanelNPC9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9251,33 +9251,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   siluetpanel: {fileID: 684517585}
-  aquairopanel: {fileID: 35492905}
-  resumepanelaquairo: {fileID: 1913938878}
-  statsaquairo: {fileID: 1226543659}
-  mlmenangpanel: {fileID: 491186108}
-  resumepanelmlmenang: {fileID: 691742805}
-  statsmlmenang: {fileID: 601033962}
-  mlkalahpanel: {fileID: 1829167439}
-  resumepanelmlkalah: {fileID: 1265889104}
-  statsmlkalah: {fileID: 798194525}
-  masjidrobloxpanel: {fileID: 1837481382}
-  resumepanelmasjidroblox: {fileID: 1620076776}
-  statsmasjidroblox: {fileID: 1855373928}
-  gimjamytpanel: {fileID: 1909388736}
-  resumepanelgimjamyt: {fileID: 1688641152}
-  statsgimjamyt: {fileID: 921287731}
-  robloxkembarpanel: {fileID: 924625458}
-  resumepanelrobloxkembar: {fileID: 724975238}
-  statsrobloxkembar: {fileID: 1176556419}
-  robloxmvppanel: {fileID: 1248232160}
-  resumepanelrobloxmvp: {fileID: 907757850}
-  statsrobloxmvp: {fileID: 1145612191}
-  robloxgunungpanel: {fileID: 436579371}
-  resumepanelrobloxgunung: {fileID: 181723967}
-  statsrobloxgunung: {fileID: 1584998851}
-  robloxdagingpanel: {fileID: 510634763}
-  resumepanelrobloxdaging: {fileID: 1491755205}
-  statsrobloxdaging: {fileID: 945533192}
+  NPC1Panel: {fileID: 35492905}
+  resumepanelNPC1: {fileID: 1913938878}
+  statsNPC1: {fileID: 1226543659}
+  NPC2Panel: {fileID: 491186108}
+  resumepanelNPC2: {fileID: 691742805}
+  statsNPC2: {fileID: 601033962}
+  NPC3Panel: {fileID: 1829167439}
+  resumepanelNPC3: {fileID: 1265889104}
+  statsNPC3: {fileID: 798194525}
+  NPC4Panel: {fileID: 1837481382}
+  resumepanelNPC4: {fileID: 1620076776}
+  statsNPC4: {fileID: 1855373928}
+  NPC5Panel: {fileID: 1909388736}
+  resumepanelNPC5: {fileID: 1688641152}
+  statsNPC5: {fileID: 921287731}
+  NPC6Panel: {fileID: 924625458}
+  resumepanelNPC6: {fileID: 724975238}
+  statsNPC6: {fileID: 1176556419}
+  NPC7Panel: {fileID: 1248232160}
+  resumepanelNPC7: {fileID: 907757850}
+  statsNPC7: {fileID: 1145612191}
+  NPC8Panel: {fileID: 436579371}
+  resumepanelNPC8: {fileID: 181723967}
+  statsNPC8: {fileID: 1584998851}
+  NPC9Panel: {fileID: 510634763}
+  resumepanelNPC9: {fileID: 1491755205}
+  statsNPC9: {fileID: 945533192}
 --- !u!4 &1534363812
 Transform:
   m_ObjectHideFlags: 0
@@ -9374,7 +9374,7 @@ GameObject:
   - component: {fileID: 1571362336}
   - component: {fileID: 1571362335}
   m_Layer: 5
-  m_Name: robloxmvp
+  m_Name: NPC7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9446,7 +9446,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: robloxmvpbutton
+        m_MethodName: NPC7Button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9476,7 +9476,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fc0356991ebecd94d8c4ea60d8a7a697, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d22883ff691941d4bb2bdd1be1880969, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9506,7 +9506,7 @@ GameObject:
   - component: {fileID: 1584998854}
   - component: {fileID: 1584998853}
   m_Layer: 5
-  m_Name: statsrobloxgunung
+  m_Name: statsNPC8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9551,7 +9551,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2a32e19433eab324eb06c0c924e17236, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 01e2d4cb8770a54439e6e551c7f0c212, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9715,7 +9715,7 @@ GameObject:
   - component: {fileID: 1620076779}
   - component: {fileID: 1620076778}
   m_Layer: 5
-  m_Name: resumepanelmasjidroblox
+  m_Name: resumepanelNPC4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9923,7 +9923,7 @@ GameObject:
   - component: {fileID: 1688641155}
   - component: {fileID: 1688641154}
   m_Layer: 5
-  m_Name: resumepanelgimjamyt
+  m_Name: resumepanelNPC5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9999,7 +9999,7 @@ GameObject:
   - component: {fileID: 1703601184}
   - component: {fileID: 1703601183}
   m_Layer: 5
-  m_Name: mlkalah
+  m_Name: NPC3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10071,7 +10071,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: mlkalahbutton
+        m_MethodName: NPC3Button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10101,7 +10101,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5c277287ef3900d44a4315ba19702aa2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5ace1e3087e0d9f4cb8daae8b66b67c8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10204,7 +10204,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: detailmasjidroblox
+        m_MethodName: detailNPC4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11201,7 +11201,7 @@ GameObject:
   - component: {fileID: 1829167442}
   - component: {fileID: 1829167441}
   m_Layer: 5
-  m_Name: mlkalahpanel
+  m_Name: NPC3panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11281,7 +11281,7 @@ GameObject:
   - component: {fileID: 1837481385}
   - component: {fileID: 1837481384}
   m_Layer: 5
-  m_Name: masjidrobloxpanel
+  m_Name: NPC4panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11569,7 +11569,7 @@ GameObject:
   - component: {fileID: 1855373931}
   - component: {fileID: 1855373930}
   m_Layer: 5
-  m_Name: statsmasjidroblox
+  m_Name: statsNPC4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11614,7 +11614,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 86d842ccaa8825c4090fccee2fec38fc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3843101206fc1c84ead24688de5314c7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11778,7 +11778,7 @@ GameObject:
   - component: {fileID: 1909388739}
   - component: {fileID: 1909388738}
   m_Layer: 5
-  m_Name: gimjamytpanel
+  m_Name: NPC5panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11858,7 +11858,7 @@ GameObject:
   - component: {fileID: 1913938880}
   - component: {fileID: 1913938879}
   m_Layer: 5
-  m_Name: resumepanelaquairo
+  m_Name: resumepanelNPC1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12006,7 +12006,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534363811}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
-        m_MethodName: detailrobloxgunung
+        m_MethodName: detailNPC8
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
