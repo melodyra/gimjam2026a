@@ -1,33 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class SFXsetting : MonoBehaviour
 {
+    [SerializeField] AudioSource sfx;
     [SerializeField] Slider volume;
     void Start()
     {
-        if (PlayerPrefs.HasKey("musicvolume"))
+        if (PlayerPrefs.HasKey("sfxvolume"))
         {
             Load();
         }
         else
         {
-            PlayerPrefs.SetFloat("musicvolume", 1);
+            PlayerPrefs.SetFloat("sfxvolume", 1);
             Load();
         }
     }
     public void changevolume()
     {
-        AudioListener.volume = volume.value;
+        sfx.volume = volume.value;
         Save();
     }
     private void Load()
     {
-        volume.value = PlayerPrefs.GetFloat("musicvolume");
+        volume.value = PlayerPrefs.GetFloat("sfxvolume");
     }
     private void Save()
     {
-        PlayerPrefs.SetFloat("musicvolume", volume.value);
+        PlayerPrefs.SetFloat("sfxvolume", volume.value);
     }
 }

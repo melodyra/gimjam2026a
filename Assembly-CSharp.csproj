@@ -65,7 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\startgame.cs" />
-    <Compile Include="Assets\sfx.cs" />
+    <Compile Include="Assets\Script\audiomanager.cs" />
     <Compile Include="Assets\Script\SFXsetting.cs" />
     <Compile Include="Assets\Script\quit.cs" />
     <Compile Include="Assets\Script\switchload.cs" />
