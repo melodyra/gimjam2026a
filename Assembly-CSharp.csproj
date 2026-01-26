@@ -63,7 +63,10 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\HireRandomSlot.cs" />
     <Compile Include="Assets\Script\GameBootstrap.cs" />
+    <Compile Include="Assets\Script\FireRandomPosition.cs" />
+    <Compile Include="Assets\Script\WaveManager.cs" />
     <Compile Include="Assets\Script\HireController.cs" />
     <Compile Include="Assets\Script\CommunityManager.cs" />
     <Compile Include="Assets\Script\FireController.cs" />

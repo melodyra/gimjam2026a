@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639047459893050917
+      ticks: 639050025147666653
     m_Hash: 2277806327
   m_LockFileStatus:
     m_FilePath: C:/Users/ASUS/Documents/GitHub/gimjam2026a/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639047459893050917
+      ticks: 639050025147677590
     m_Hash: 4012544076
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -130,6 +130,7 @@ m_ResolvedPackages:
     - 2.10.1
     - 2.10.2
     - 2.11.2
+    - 2.11.3
     compatible:
     - 2.7.1
     - 2.8.1
@@ -141,6 +142,7 @@ m_ResolvedPackages:
     - 2.10.1
     - 2.10.2
     - 2.11.2
+    - 2.11.3
     recommended: 2.7.1
     deprecated: []
   dependencies: []

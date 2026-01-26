@@ -24,20 +24,26 @@ public static class CommunityManager
     public static Dictionary<string, NPCStat> npcStats = new Dictionary<string, NPCStat>()
     {
         // NPC AWAL
-        { "aquairo",       new NPCStat(20, 40) },
-        { "mlmenang",      new NPCStat(25, 35) },
-        { "mlkalah",       new NPCStat(15, 45) },
-        { "masjidroblox",  new NPCStat(10, 50) },
-        { "gimjamyt",      new NPCStat(30, 30) },
-        { "robloxkembar",  new NPCStat(20, 40) },
-        { "robloxmvp",     new NPCStat(35, 25) },
-        { "robloxgunung",  new NPCStat(15, 45) },
-        { "robloxdaging",  new NPCStat(25, 35) },
-
+        { "aquairo", new NPCStat(0, 50) },
+        { "mlmenang", new NPCStat(65, 20) },
+        { "mlkalah", new NPCStat(50, 50) },
+        { "masjidroblox", new NPCStat(15, 85) },
+        { "gimjamyt", new NPCStat(70, 55) },
+        { "robloxkembar", new NPCStat(35, 75) },
+        { "robloxmvp", new NPCStat(67, 45) },
+        { "robloxgunung", new NPCStat(80, 55) },
+        { "robloxdaging", new NPCStat(52, 77) },
+        
         // NPC HIRE (Potensial, Survival )
-        { "miku",          new NPCStat(80, 55) },
-        { "alalten",       new NPCStat(20, 90) },
-        { "sicbg3",        new NPCStat(95, 25) }
+        { "miku", new NPCStat(57, 90) },
+        { "alalten", new NPCStat(62, 20) },
+        { "sicbg3", new NPCStat(85, 55) },
+        { "NPC14", new NPCStat(87, 15) },
+        { "NPC15", new NPCStat(65, 65) },
+        { "NPC16", new NPCStat(79, 10) },
+        { "NPC17", new NPCStat(30, 64) },
+        { "NPC18", new NPCStat(73, 66) },
+        { "NPC19", new NPCStat(27, 27) }
     };
 
     // RESET WAJIB (INI KUNCI)

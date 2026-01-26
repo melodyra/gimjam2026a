@@ -1,0 +1,45 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class HireRandomSlot : MonoBehaviour
+{
+    [Header("Semua Tombol NPC (9)")]
+    public List<GameObject> npcButtons;
+
+    [Header("Slot Posisi")]
+    public Vector2 slot1 = new Vector2(-580, 333);
+    public Vector2 slot2 = new Vector2(-580, 18);
+    public Vector2 slot3 = new Vector2(-580, -315);
+
+    void OnEnable()
+    {
+        RandomizeNPCButtons();
+    }
+
+    public void RandomizeNPCButtons()
+    {
+        // 1️⃣ Matikan semua dulu
+        foreach (var btn in npcButtons)
+            btn.SetActive(false);
+
+        // 2️⃣ Acak list
+        List<GameObject> shuffled = new List<GameObject>(npcButtons);
+        for (int i = 0; i < shuffled.Count; i++)
+        {
+            int rand = Random.Range(i, shuffled.Count);
+            (shuffled[i], shuffled[rand]) = (shuffled[rand], shuffled[i]);
+        }
+
+        // 3️⃣ Ambil 3 pertama
+        SetButton(shuffled[0], slot1);
+        SetButton(shuffled[1], slot2);
+        SetButton(shuffled[2], slot3);
+    }
+
+    void SetButton(GameObject btn, Vector2 pos)
+    {
+        btn.SetActive(true);
+        RectTransform rt = btn.GetComponent<RectTransform>();
+        rt.anchoredPosition = pos;
+    }
+}

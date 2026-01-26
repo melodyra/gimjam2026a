@@ -10,22 +10,35 @@ public class TurnBasedCombat : MonoBehaviour
     [SerializeField] GameObject player;
     [SerializeField] GameObject enemy;
 
-    [Header("Battle Stats")]
-    [SerializeField] int monsterStat = 300;
+    [Header("Potential Settings")]
     [SerializeField] float potentialMultiplier = 0.1f;
 
     [Header("UI")]
     [SerializeField] TextMeshProUGUI playerHealthText;
     [SerializeField] TextMeshProUGUI enemyHealthText;
     [SerializeField] TextMeshProUGUI chanceText;
+    [SerializeField] TextMeshProUGUI waveText;
     [SerializeField] Button attackButton;
 
+    int monsterStat;
     int cachedChancePercent;
+    bool battleResolved = false;
 
     void Start()
     {
-        CalculateAndShowChance();
+        SetupWave();
         attackButton.onClick.AddListener(ResolveBattle);
+    }
+
+    void SetupWave()
+    {
+        monsterStat = WaveManager.GetMonsterStat();
+
+        waveText.text = $"WAVE {WaveManager.currentWave}";
+        enemyHealthText.text = monsterStat.ToString();
+        playerHealthText.text = "Community";
+
+        CalculateAndShowChance();
     }
 
     void CalculateAndShowChance()
@@ -44,19 +57,22 @@ public class TurnBasedCombat : MonoBehaviour
             (communityPower + monsterStat);
 
         cachedChancePercent = Mathf.RoundToInt(chance * 100f);
+        cachedChancePercent = Mathf.Clamp(cachedChancePercent, 1, 99);
 
-        playerHealthText.text = "Community";
-        enemyHealthText.text = monsterStat.ToString();
         chanceText.text = $"Chance to Survive: {cachedChancePercent}%";
 
+        Debug.Log($"WAVE {WaveManager.currentWave}");
         Debug.Log($"Survival: {totalSurvival}");
         Debug.Log($"Potential: {totalPotential}");
-        Debug.Log($"Power: {communityPower}");
+        Debug.Log($"Monster: {monsterStat}");
         Debug.Log($"Chance: {cachedChancePercent}%");
     }
 
     void ResolveBattle()
     {
+        if (battleResolved) return;
+        battleResolved = true;
+
         attackButton.interactable = false;
 
         int roll = Random.Range(0, 101);
@@ -66,18 +82,47 @@ public class TurnBasedCombat : MonoBehaviour
         {
             if (roll <= cachedChancePercent)
             {
-                Debug.Log("MENANG");
-                enemyHealthText.text = "DEFEATED";
-                playerHealthText.text = "SURVIVED";
+                HandleWin();
             }
             else
             {
-                Debug.Log("KALAH");
-                enemyHealthText.text = "SURVIVED";
-                playerHealthText.text = "DESTROYED";
-                Invoke(nameof(LoadLoseScene), 1.2f);
+                HandleLose();
             }
         }));
+    }
+
+    void HandleWin()
+    {
+        Debug.Log("MENANG");
+
+        enemyHealthText.text = "DEFEATED";
+        playerHealthText.text = "SURVIVED";
+
+        Invoke(nameof(ProceedAfterWin), 1.2f);
+    }
+
+    void HandleLose()
+    {
+        Debug.Log("KALAH");
+
+        enemyHealthText.text = "SURVIVED";
+        playerHealthText.text = "DESTROYED";
+
+        Invoke(nameof(LoadLoseScene), 1.2f);
+    }
+
+    void ProceedAfterWin()
+    {
+        if (WaveManager.IsLastWave())
+        {
+            Debug.Log("SEMUA WAVE SELESAI");
+            SceneManager.LoadScene("WinScene");
+        }
+        else
+        {
+            WaveManager.NextWave();
+            SceneManager.LoadScene("HireSceneFix");
+        }
     }
 
     void LoadLoseScene()

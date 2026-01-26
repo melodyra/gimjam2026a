@@ -355,11 +355,14 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Script/CommunityManager.cs"
 "Assets/Script/FireController.cs"
+"Assets/Script/FireRandomPosition.cs"
 "Assets/Script/FireSceneManagerFix.cs"
 "Assets/Script/GameBootstrap.cs"
 "Assets/Script/HireController.cs"
+"Assets/Script/HireRandomSlot.cs"
 "Assets/Script/HireSceneManagerFix.cs"
 "Assets/Script/TurnBasedCombat.cs"
+"Assets/Script/WaveManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
