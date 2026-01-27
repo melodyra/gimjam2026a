@@ -49,6 +49,11 @@ public class FireController : MonoBehaviour
     public GameObject resumepanelNPC9;
     public GameObject statsNPC9;
 
+    [Header("NPC 10")]
+    public GameObject NPC10Panel;
+    public GameObject resumepanelNPC10;
+    public GameObject statsNPC10;
+
     [Header("NPC Miku")]
     public GameObject mikuPanel;
     public GameObject resumepanelmiku;
@@ -113,6 +118,7 @@ public class FireController : MonoBehaviour
         NPC7Panel.SetActive(false);
         NPC8Panel.SetActive(false);
         NPC9Panel.SetActive(false);
+        NPC10Panel.SetActive(false);
         mikuPanel.SetActive(false);
         alaltenPanel.SetActive(false);
         sicbg3Panel.SetActive(false);
@@ -248,6 +254,20 @@ public class FireController : MonoBehaviour
     {
         resumepanelNPC9.SetActive(false);
         statsNPC9.SetActive(true);
+    }
+
+    public void NPC10Button()
+    {
+        selectedNPC = "NPC10";
+        siluetpanel.SetActive(false);
+        NPC10Panel.SetActive(true);
+        resumepanelNPC10.SetActive(true);
+        statsNPC10.SetActive(false);
+    }
+    public void detailNPC10()
+    {
+        resumepanelNPC10.SetActive(false);
+        statsNPC10.SetActive(true);
     }
 
     public void mikuButton()
@@ -387,6 +407,7 @@ public class FireController : MonoBehaviour
         if (statsNPC7.activeSelf) { statsNPC7.SetActive(false); resumepanelNPC7.SetActive(true); return; }
         if (statsNPC8.activeSelf) { statsNPC8.SetActive(false); resumepanelNPC8.SetActive(true); return; }
         if (statsNPC9.activeSelf) { statsNPC9.SetActive(false); resumepanelNPC9.SetActive(true); return; }
+        if (statsNPC10.activeSelf) { statsNPC10.SetActive(false); resumepanelNPC10.SetActive(true); return; }
         if (statsmiku.activeSelf) { statsmiku.SetActive(false); resumepanelmiku.SetActive(true); return; }
         if (statsalalten.activeSelf) { statsalalten.SetActive(false); resumepanelalalten.SetActive(true); return; }
         if (statssicbg3.activeSelf) { statssicbg3.SetActive(false); resumepanelsicbg3.SetActive(true); return; }

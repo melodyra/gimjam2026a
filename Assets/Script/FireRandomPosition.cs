@@ -8,18 +8,16 @@ public class FireRandomPosition : MonoBehaviour
 
     List<Vector2> slots = new List<Vector2>()
     {
-        new Vector2(-632,  333), new Vector2(-632,    0), new Vector2(-632, -315),
-        new Vector2(0,     333), new Vector2(0,       0), new Vector2(0,    -315),
-        new Vector2(638,   333), new Vector2(638,     0), new Vector2(638,  -315),
+        new Vector2(-528, 334), new Vector2(-0, 334), new Vector2(528, 334),
+        new Vector2(-528, 112), new Vector2(0, 112), new Vector2(528, 112),
+        new Vector2(-528, -109), new Vector2(0, -109), new Vector2(528, -109),
+        new Vector2(0,-322)
     };
 
-    // Gunakan Start agar hanya jalan 1x saat Scene loading
     void Start()
     {
         RandomizePositions();
     }
-
-    // OnEnable dikosongkan atau dihapus saja
     
     public void RandomizePositions()
     {

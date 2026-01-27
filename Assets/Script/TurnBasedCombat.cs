@@ -10,9 +10,6 @@ public class TurnBasedCombat : MonoBehaviour
     [SerializeField] GameObject player;
     [SerializeField] GameObject enemy;
 
-    [Header("Potential Settings")]
-    [SerializeField] float potentialMultiplier = 0.1f;
-
     [Header("UI")]
     [SerializeField] TextMeshProUGUI playerHealthText;
     [SerializeField] TextMeshProUGUI enemyHealthText;
@@ -43,18 +40,9 @@ public class TurnBasedCombat : MonoBehaviour
 
     void CalculateAndShowChance()
     {
-        CommunityManager.GetCommunityStats(
-            out int totalSurvival,
-            out int totalPotential
-        );
+        CommunityManager.GetCommunityStats(out int totalSurvival);
 
-        int communityPower =
-            totalSurvival +
-            Mathf.RoundToInt(totalPotential * potentialMultiplier);
-
-        float chance =
-            (float)communityPower /
-            (communityPower + monsterStat);
+        float chance = (float)totalSurvival / (totalSurvival + monsterStat);
 
         cachedChancePercent = Mathf.RoundToInt(chance * 100f);
         cachedChancePercent = Mathf.Clamp(cachedChancePercent, 1, 99);
@@ -62,10 +50,9 @@ public class TurnBasedCombat : MonoBehaviour
         chanceText.text = $"Chance to Survive: {cachedChancePercent}%";
 
         Debug.Log($"WAVE {WaveManager.currentWave}");
-        Debug.Log($"Survival: {totalSurvival}");
-        Debug.Log($"Potential: {totalPotential}");
-        Debug.Log($"Monster: {monsterStat}");
-        Debug.Log($"Chance: {cachedChancePercent}%");
+        Debug.Log($"Total Survival Akhir: {totalSurvival}");
+        Debug.Log($"Monster Stat: {monsterStat}");
+        Debug.Log($"Win Chance: {cachedChancePercent}%");
     }
 
     void ResolveBattle()
@@ -75,8 +62,8 @@ public class TurnBasedCombat : MonoBehaviour
 
         attackButton.interactable = false;
 
-        int roll = Random.Range(0, 101);
-        Debug.Log($"ROLL: {roll}");
+        int roll = Random.Range(1, 101);
+        Debug.Log($"ROLL: {roll} vs CHANCE: {cachedChancePercent}");
 
         StartCoroutine(DoAttack(player, enemy, () =>
         {
@@ -93,21 +80,15 @@ public class TurnBasedCombat : MonoBehaviour
 
     void HandleWin()
     {
-        Debug.Log("MENANG");
-
         enemyHealthText.text = "DEFEATED";
         playerHealthText.text = "SURVIVED";
-
         Invoke(nameof(ProceedAfterWin), 1.2f);
     }
 
     void HandleLose()
     {
-        Debug.Log("KALAH");
-
         enemyHealthText.text = "SURVIVED";
         playerHealthText.text = "DESTROYED";
-
         Invoke(nameof(LoadLoseScene), 1.2f);
     }
 
@@ -115,7 +96,6 @@ public class TurnBasedCombat : MonoBehaviour
     {
         if (WaveManager.IsLastWave())
         {
-            Debug.Log("SEMUA WAVE SELESAI");
             SceneManager.LoadScene("WinScene");
         }
         else

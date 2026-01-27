@@ -14,6 +14,7 @@ public class FireSceneManagerFix : MonoBehaviour
             ? "TIDAK ADA"
             : CommunityManager.hiredCandidate));
     }
+
     public void Fire()
     {
         if (alreadyFired) return;
@@ -23,25 +24,27 @@ public class FireSceneManagerFix : MonoBehaviour
 
         if (string.IsNullOrEmpty(firedNPC))
         {
-            Debug.LogError(" BELUM PILIH NPC UNTUK DI-FIRE");
+            Debug.LogError("BELUM PILIH NPC UNTUK DI-FIRE");
+            alreadyFired = false; 
             return;
         }
 
         Debug.Log("NPC DIFIRE : " + firedNPC);
+        CommunityManager.GetCommunityStats(out int beforeSurv);
+        Debug.Log($"STAT AWAL → Total Survival: {beforeSurv}");
 
-        CommunityManager.GetCommunityStats(out int beforeSurv, out int beforePot);
-        Debug.Log($"STAT AWAL → Survival: {beforeSurv}, Potential: {beforePot}");
         if (!CommunityManager.members.Contains(firedNPC))
         {
             Debug.LogError("NPC TIDAK ADA DI MEMBER: " + firedNPC);
+            alreadyFired = false;
             return;
         }
 
         CommunityManager.members.Remove(firedNPC);
+
         if (!string.IsNullOrEmpty(CommunityManager.hiredCandidate))
         {
             string newNPC = CommunityManager.hiredCandidate;
-
             Debug.Log("NPC MASUK (HIRE): " + newNPC);
 
             if (!CommunityManager.members.Contains(newNPC))
@@ -53,10 +56,8 @@ public class FireSceneManagerFix : MonoBehaviour
         }
 
         CommunityManager.hiredCandidate = "";
-
-        CommunityManager.GetCommunityStats(out int afterSurv, out int afterPot);
-        Debug.Log($"STAT AKHIR → Survival: {afterSurv}, Potential: {afterPot}");
-
+        CommunityManager.GetCommunityStats(out int afterSurv);
+        Debug.Log($"STAT AKHIR → Total Survival: {afterSurv}");
         CommunityManager.PrintCommunity("MEMBER SETELAH FIRE");
         SceneManager.LoadScene("GamePlay");
     }

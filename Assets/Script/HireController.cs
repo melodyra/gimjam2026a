@@ -43,6 +43,9 @@ public class HireController : MonoBehaviour
     public GameObject NPC9panel;
     public GameObject resumepanelNPC9;
     public GameObject statsNPC9;
+    public GameObject NPC10panel;
+    public GameObject resumepanelNPC10;
+    public GameObject statsNPC10;
     public GameObject NPC14panel;
     public GameObject resumepanelNPC14;
     public GameObject statsNPC14;
@@ -81,6 +84,7 @@ public class HireController : MonoBehaviour
         NPC7panel.SetActive(false);
         NPC8panel.SetActive(false);
         NPC9panel.SetActive(false);
+        NPC10panel.SetActive(false);
         NPC14panel.SetActive(false);
         NPC15panel.SetActive(false);
         NPC16panel.SetActive(false);
@@ -268,6 +272,21 @@ public class HireController : MonoBehaviour
         statsNPC9.SetActive(true);
     }
 
+    public void NPC10button()
+    {
+        selectedNPC = "NPC10";
+        HideAll();
+        NPC10panel.SetActive(true);
+        resumepanelNPC10.SetActive(true);
+        statsNPC10.SetActive(false);
+    }
+
+    public void detailstatsNPC10()
+    {
+        resumepanelNPC10.SetActive(false);
+        statsNPC10.SetActive(true);
+    }
+
     public void NPC14button()
     {
         selectedNPC = "NPC14";
@@ -373,6 +392,7 @@ public class HireController : MonoBehaviour
         if (statsNPC7.activeSelf) { statsNPC7.SetActive(false); resumepanelNPC7.SetActive(true); return; }
         if (statsNPC8.activeSelf) { statsNPC8.SetActive(false); resumepanelNPC8.SetActive(true); return; }
         if (statsNPC9.activeSelf) { statsNPC9.SetActive(false); resumepanelNPC9.SetActive(true); return; }
+        if (statsNPC10.activeSelf) { statsNPC10.SetActive(false); resumepanelNPC10.SetActive(true); return; }
         
         if (statsNPC14.activeSelf) { statsNPC14.SetActive(false); resumepanelNPC14.SetActive(true); return; }
         if (statsNPC15.activeSelf) { statsNPC15.SetActive(false); resumepanelNPC15.SetActive(true); return; }
@@ -403,6 +423,7 @@ public class HireController : MonoBehaviour
         NPC7panel.SetActive(false);
         NPC8panel.SetActive(false);
         NPC9panel.SetActive(false);
+        NPC10panel.SetActive(false);
         NPC14panel.SetActive(false);
         NPC15panel.SetActive(false);
         NPC16panel.SetActive(false);
@@ -435,6 +456,8 @@ public class HireController : MonoBehaviour
         statsNPC8.SetActive(false);
         resumepanelNPC9.SetActive(false);
         statsNPC9.SetActive(false);
+        resumepanelNPC10.SetActive(false);
+        statsNPC10.SetActive(false);
 
         resumepanelNPC14.SetActive(false);
         statsNPC14.SetActive(false);

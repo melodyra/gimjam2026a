@@ -19,12 +19,15 @@ public class HireSceneManagerFix : MonoBehaviour
         }
 
         CommunityManager.hiredCandidate = selectedNPC;
-        Debug.Log("NPC dipilih: " + selectedNPC);
 
         if (CommunityManager.npcStats.ContainsKey(selectedNPC))
         {
             var stat = CommunityManager.npcStats[selectedNPC];
-            Debug.Log($"Stat NPC → Survival: {stat.survival}, Potential: {stat.potential}");
+            Debug.Log("NPC dipilih: " + selectedNPC + " | Survival: " + stat.survival + " | Potential: " + stat.potential);
+        }
+        else
+        {
+            Debug.LogError("NPC " + selectedNPC + " tidak ditemukan di database CommunityManager!");
         }
 
         SceneManager.LoadScene("FireSceneFix");

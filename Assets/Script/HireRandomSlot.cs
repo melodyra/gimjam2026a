@@ -11,7 +11,6 @@ public class HireRandomSlot : MonoBehaviour
     public Vector2 slot2 = new Vector2(-580, 18);
     public Vector2 slot3 = new Vector2(-580, -315);
 
-    // Diganti ke Start agar acak dilakukan 1x saja saat scene dimuat
     void Start()
     {
         RandomizeNPCButtons();
@@ -19,13 +18,10 @@ public class HireRandomSlot : MonoBehaviour
 
     public void RandomizeNPCButtons()
     {
-        // Matikan semua tombol di awal
         foreach (var btn in npcButtons)
         {
             if (btn != null) btn.SetActive(false);
         }
-
-        // Filter: Hanya ambil NPC yang belum jadi member
         List<GameObject> availableButtons = new List<GameObject>();
         foreach (var btn in npcButtons)
         {
@@ -34,8 +30,6 @@ public class HireRandomSlot : MonoBehaviour
                 availableButtons.Add(btn);
             }
         }
-
-        // Acak urutan NPC yang tersedia
         for (int i = 0; i < availableButtons.Count; i++)
         {
             int rand = Random.Range(i, availableButtons.Count);
@@ -43,8 +37,6 @@ public class HireRandomSlot : MonoBehaviour
             availableButtons[i] = availableButtons[rand];
             availableButtons[rand] = temp;
         }
-
-        // Pasang ke 3 slot yang tersedia
         if (availableButtons.Count >= 1) SetButton(availableButtons[0], slot1);
         if (availableButtons.Count >= 2) SetButton(availableButtons[1], slot2);
         if (availableButtons.Count >= 3) SetButton(availableButtons[2], slot3);
