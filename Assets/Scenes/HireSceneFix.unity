@@ -15472,6 +15472,15 @@ MonoBehaviour:
   - {fileID: 1373562339}
   - {fileID: 1754024487}
   - {fileID: 1102210462}
+  - {fileID: 146669116}
+  - {fileID: 1208444865}
+  - {fileID: 714925965}
+  - {fileID: 2116253864}
+  - {fileID: 1784322426}
+  - {fileID: 769533602}
+  - {fileID: 935063191}
+  - {fileID: 58788132}
+  - {fileID: 194038409}
   slot1: {x: -580, y: 333}
   slot2: {x: -580, y: 18}
   slot3: {x: -580, y: -315}

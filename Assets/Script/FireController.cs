@@ -70,8 +70,6 @@ public class FireController : MonoBehaviour
         NPC9Panel.SetActive(false);
     }
 
-    // --- FUNGSI BUTTON NPC ---
-
     public void NPC1Button()
     {
         selectedNPC = "NPC1";
@@ -197,8 +195,6 @@ public class FireController : MonoBehaviour
         resumepanelNPC9.SetActive(false);
         statsNPC9.SetActive(true);
     }
-
-    // --- KEMBALI ---
 
     public void kembali()
     {

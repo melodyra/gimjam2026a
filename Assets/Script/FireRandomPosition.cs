@@ -13,20 +13,17 @@ public class FireRandomPosition : MonoBehaviour
         new Vector2(638,   333), new Vector2(638,     0), new Vector2(638,  -315),
     };
 
-    void OnEnable() // Menggunakan OnEnable agar refresh setiap kali masuk scene
+    void OnEnable()
     {
         RandomizePositions();
     }
 
     void RandomizePositions()
     {
-        // 1. Sembunyikan semua tombol dulu
         foreach (var btn in npcButtons)
         {
             btn.SetActive(false);
         }
-
-        // 2. Filter: Cari tombol yang namanya ada di list CommunityManager.members
         List<GameObject> activeMembersButtons = new List<GameObject>();
         foreach (var btn in npcButtons)
         {
@@ -35,15 +32,11 @@ public class FireRandomPosition : MonoBehaviour
                 activeMembersButtons.Add(btn);
             }
         }
-
-        // 3. Acak posisi tombol yang aktif saja
         for (int i = 0; i < activeMembersButtons.Count; i++)
         {
             int rand = Random.Range(i, activeMembersButtons.Count);
             (activeMembersButtons[i], activeMembersButtons[rand]) = (activeMembersButtons[rand], activeMembersButtons[i]);
         }
-
-        // 4. Aktifkan tombol dan pasang ke slot (Maksimal 9 sesuai jumlah slot)
         for (int i = 0; i < activeMembersButtons.Count && i < slots.Count; i++)
         {
             activeMembersButtons[i].SetActive(true); // Aktifkan panelnya

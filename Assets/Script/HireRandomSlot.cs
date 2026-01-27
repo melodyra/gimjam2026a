@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class HireRandomSlot : MonoBehaviour
 {
-    [Header("Semua Tombol NPC (9)")]
+    [Header("Semua Tombol NPC")]
     public List<GameObject> npcButtons;
 
     [Header("Slot Posisi")]
@@ -19,22 +19,39 @@ public class HireRandomSlot : MonoBehaviour
     public void RandomizeNPCButtons()
     {
         foreach (var btn in npcButtons)
-            btn.SetActive(false);
-        List<GameObject> shuffled = new List<GameObject>(npcButtons);
-        for (int i = 0; i < shuffled.Count; i++)
         {
-            int rand = Random.Range(i, shuffled.Count);
-            (shuffled[i], shuffled[rand]) = (shuffled[rand], shuffled[i]);
+            if (btn != null) btn.SetActive(false);
         }
-        SetButton(shuffled[0], slot1);
-        SetButton(shuffled[1], slot2);
-        SetButton(shuffled[2], slot3);
+
+        List<GameObject> availableButtons = new List<GameObject>();
+        foreach (var btn in npcButtons)
+        {
+            if (btn != null && !CommunityManager.members.Contains(btn.name))
+            {
+                availableButtons.Add(btn);
+            }
+        }
+
+        for (int i = 0; i < availableButtons.Count; i++)
+        {
+            int rand = Random.Range(i, availableButtons.Count);
+            GameObject temp = availableButtons[i];
+            availableButtons[i] = availableButtons[rand];
+            availableButtons[rand] = temp;
+        }
+
+        if (availableButtons.Count >= 1) SetButton(availableButtons[0], slot1);
+        if (availableButtons.Count >= 2) SetButton(availableButtons[1], slot2);
+        if (availableButtons.Count >= 3) SetButton(availableButtons[2], slot3);
     }
 
     void SetButton(GameObject btn, Vector2 pos)
     {
         btn.SetActive(true);
         RectTransform rt = btn.GetComponent<RectTransform>();
-        rt.anchoredPosition = pos;
+        if (rt != null)
+        {
+            rt.anchoredPosition = pos;
+        }
     }
 }

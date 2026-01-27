@@ -7,20 +7,15 @@ using UnityEngine.SceneManagement;
 public class HireController : MonoBehaviour
 {
     public GameObject siluetpanel;
-
-    // ===== NPC AWAL =====
     public GameObject mikupanel;
     public GameObject resumepanelmiku;
     public GameObject statsmiku;
-
     public GameObject alaltenpanel;
     public GameObject resumepanelalalten;
     public GameObject statsalalten;
-
     public GameObject sicbg3panel;
     public GameObject resumepanelsicbg3;
     public GameObject statssicbg3;
-
     public GameObject NPC1panel;
     public GameObject resumepanelNPC1;
     public GameObject statsNPC1;
@@ -48,28 +43,21 @@ public class HireController : MonoBehaviour
     public GameObject NPC9panel;
     public GameObject resumepanelNPC9;
     public GameObject statsNPC9;
-
-    // ===== NPC 14 - 19 =====
     public GameObject NPC14panel;
     public GameObject resumepanelNPC14;
     public GameObject statsNPC14;
-
     public GameObject NPC15panel;
     public GameObject resumepanelNPC15;
     public GameObject statsNPC15;
-
     public GameObject NPC16panel;
     public GameObject resumepanelNPC16;
     public GameObject statsNPC16;
-
     public GameObject NPC17panel;
     public GameObject resumepanelNPC17;
     public GameObject statsNPC17;
-
     public GameObject NPC18panel;
     public GameObject resumepanelNPC18;
     public GameObject statsNPC18;
-
     public GameObject NPC19panel;
     public GameObject resumepanelNPC19;
     public GameObject statsNPC19;
@@ -100,8 +88,6 @@ public class HireController : MonoBehaviour
         NPC18panel.SetActive(false);
         NPC19panel.SetActive(false);
     }
-
-    // ===== MIKU =====
     public void mikubutton()
     {
         selectedNPC = "miku";
@@ -117,7 +103,6 @@ public class HireController : MonoBehaviour
         statsmiku.SetActive(true);
     }
 
-    // ===== ALALTEN =====
     public void alaltenbutton()
     {
         selectedNPC = "alalten";
@@ -133,7 +118,6 @@ public class HireController : MonoBehaviour
         statsalalten.SetActive(true);
     }
 
-    // ===== SICBG3 =====
     public void sicbg3button()
     {
         selectedNPC = "sicbg3";
@@ -149,7 +133,6 @@ public class HireController : MonoBehaviour
         statssicbg3.SetActive(true);
     }
 
-    // ===== NPC1 =====
     public void NPC1button()
     {
         selectedNPC = "NPC1";
@@ -165,7 +148,6 @@ public class HireController : MonoBehaviour
         statsNPC1.SetActive(true);
     }
 
-    // ===== NPC2 =====
     public void NPC2button()
     {
         selectedNPC = "NPC2";
@@ -181,7 +163,6 @@ public class HireController : MonoBehaviour
         statsNPC2.SetActive(true);
     }
 
-    // ===== NPC3 =====
     public void NPC3button()
     {
         selectedNPC = "NPC3";
@@ -197,7 +178,6 @@ public class HireController : MonoBehaviour
         statsNPC3.SetActive(true);
     }
 
-    // ===== NPC4 =====
     public void NPC4button()
     {
         selectedNPC = "NPC4";
@@ -213,7 +193,6 @@ public class HireController : MonoBehaviour
         statsNPC4.SetActive(true);
     }
 
-    // ===== NPC5 =====
     public void NPC5button()
     {
         selectedNPC = "NPC5";
@@ -229,7 +208,6 @@ public class HireController : MonoBehaviour
         statsNPC5.SetActive(true);
     }
 
-    // ===== NPC6 =====
     public void NPC6button()
     {
         selectedNPC = "NPC6";
@@ -245,7 +223,6 @@ public class HireController : MonoBehaviour
         statsNPC6.SetActive(true);
     }
 
-    // ===== NPC7 =====
     public void NPC7button()
     {
         selectedNPC = "NPC7";
@@ -261,7 +238,6 @@ public class HireController : MonoBehaviour
         statsNPC7.SetActive(true);
     }
 
-    // ===== NPC8 =====
     public void NPC8button()
     {
         selectedNPC = "NPC8";
@@ -277,7 +253,6 @@ public class HireController : MonoBehaviour
         statsNPC8.SetActive(true);
     }
 
-    // ===== NPC9 =====
     public void NPC9button()
     {
         selectedNPC = "NPC9";
@@ -293,7 +268,6 @@ public class HireController : MonoBehaviour
         statsNPC9.SetActive(true);
     }
 
-    // ===== NPC14 =====
     public void NPC14button()
     {
         selectedNPC = "NPC14";
@@ -309,7 +283,6 @@ public class HireController : MonoBehaviour
         statsNPC14.SetActive(true);
     }
 
-    // ===== NPC15 =====
     public void NPC15button()
     {
         selectedNPC = "NPC15";
@@ -325,7 +298,6 @@ public class HireController : MonoBehaviour
         statsNPC15.SetActive(true);
     }
 
-    // ===== NPC16 =====
     public void NPC16button()
     {
         selectedNPC = "NPC16";
@@ -341,7 +313,6 @@ public class HireController : MonoBehaviour
         statsNPC16.SetActive(true);
     }
 
-    // ===== NPC17 =====
     public void NPC17button()
     {
         selectedNPC = "NPC17";
@@ -357,7 +328,6 @@ public class HireController : MonoBehaviour
         statsNPC17.SetActive(true);
     }
 
-    // ===== NPC18 =====
     public void NPC18button()
     {
         selectedNPC = "NPC18";
@@ -373,7 +343,6 @@ public class HireController : MonoBehaviour
         statsNPC18.SetActive(true);
     }
 
-    // ===== NPC19 =====
     public void NPC19button()
     {
         selectedNPC = "NPC19";
@@ -389,7 +358,6 @@ public class HireController : MonoBehaviour
         statsNPC19.SetActive(true);
     }
 
-    // ===== KEMBALI =====
     public void kembali()
     {
         HideAll();
@@ -427,7 +395,6 @@ public class HireController : MonoBehaviour
         statsalalten.SetActive(false);
         resumepanelsicbg3.SetActive(false);
         statssicbg3.SetActive(false);
-
 
         resumepanelNPC1.SetActive(false);
         statsNPC1.SetActive(false);
