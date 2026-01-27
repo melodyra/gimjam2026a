@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 528724818}
   - component: {fileID: 528724819}
   m_Layer: 0
-  m_Name: Untitled242_20260127070721
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -504,9 +504,9 @@ Transform:
   m_GameObject: {fileID: 528724817}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -214.66666, y: 47.33333, z: 439}
-  m_LocalScale: {x: 500, y: 500, z: 500}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: -362, y: -250, z: 439}
+  m_LocalScale: {x: 2100, y: 1700, z: 2000}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1017917790}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -550,7 +550,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9c3ea62bbc98fe942b5d4807b6d62095, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1306,7 +1306,7 @@ GameObject:
   - component: {fileID: 1730209574}
   - component: {fileID: 1730209577}
   m_Layer: 5
-  m_Name: Back
+  m_Name: skip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
