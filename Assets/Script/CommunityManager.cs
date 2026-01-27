@@ -11,6 +11,7 @@ public static class CommunityManager
     public static List<string> members = new List<string>();
     public static string hiredCandidate = "";
     public static HashSet<string> potentialUsed = new HashSet<string>();
+    public static HashSet<string> firedNPCs = new HashSet<string>();
 
     public static Dictionary<string, NPCStat> npcStats = new Dictionary<string, NPCStat>()
     {
@@ -29,18 +30,17 @@ public static class CommunityManager
         members = new List<string>() { "NPC1", "NPC2", "NPC3", "NPC4", "NPC5", "NPC6", "NPC7", "NPC8", "NPC9", "NPC10" };
         hiredCandidate = "";
         potentialUsed.Clear();
+        firedNPCs.Clear();
     }
 
     public static void GetCommunityStats(out int totalSurvival)
     {
         totalSurvival = 0;
-
         foreach (var member in members)
         {
             if (npcStats.ContainsKey(member)) 
             {
                 int currentSurvival = npcStats[member].survival;
-
                 if (!potentialUsed.Contains(member))
                 {
                     int roll = Random.Range(1, 101);
@@ -51,7 +51,6 @@ public static class CommunityManager
                     }
                     potentialUsed.Add(member);
                 }
-
                 totalSurvival += currentSurvival;
             }
         }

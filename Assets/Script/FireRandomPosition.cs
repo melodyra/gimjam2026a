@@ -8,10 +8,9 @@ public class FireRandomPosition : MonoBehaviour
 
     List<Vector2> slots = new List<Vector2>()
     {
-        new Vector2(-528, 334), new Vector2(-0, 334), new Vector2(528, 334),
-        new Vector2(-528, 112), new Vector2(0, 112), new Vector2(528, 112),
-        new Vector2(-528, -109), new Vector2(0, -109), new Vector2(528, -109),
-        new Vector2(0,-322)
+        new Vector2(-363, 170), new Vector2(0, 170), new Vector2(363, 170),
+        new Vector2(-363, 0), new Vector2(0, 0), new Vector2(363, 0),
+        new Vector2(-363, -170), new Vector2(0, -170), new Vector2(363, -170),
     };
 
     void Start()
