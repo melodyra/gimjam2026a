@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class FireRandomPosition : MonoBehaviour
 {
-    [Header("Semua Tombol Anggota (Total 18 atau semua kemungkinan NPC)")]
+    [Header("Semua Tombol Anggota")]
     public List<GameObject> npcButtons;
 
     List<Vector2> slots = new List<Vector2>()
@@ -13,35 +13,46 @@ public class FireRandomPosition : MonoBehaviour
         new Vector2(638,   333), new Vector2(638,     0), new Vector2(638,  -315),
     };
 
-    void OnEnable()
+    // Gunakan Start agar hanya jalan 1x saat Scene loading
+    void Start()
     {
         RandomizePositions();
     }
 
-    void RandomizePositions()
+    // OnEnable dikosongkan atau dihapus saja
+    
+    public void RandomizePositions()
     {
         foreach (var btn in npcButtons)
         {
-            btn.SetActive(false);
+            if (btn != null) btn.SetActive(false);
         }
+
         List<GameObject> activeMembersButtons = new List<GameObject>();
         foreach (var btn in npcButtons)
         {
-            if (CommunityManager.members.Contains(btn.name))
+            if (btn != null && CommunityManager.members.Contains(btn.name))
             {
                 activeMembersButtons.Add(btn);
             }
         }
+
         for (int i = 0; i < activeMembersButtons.Count; i++)
         {
             int rand = Random.Range(i, activeMembersButtons.Count);
-            (activeMembersButtons[i], activeMembersButtons[rand]) = (activeMembersButtons[rand], activeMembersButtons[i]);
+            GameObject temp = activeMembersButtons[i];
+            activeMembersButtons[i] = activeMembersButtons[rand];
+            activeMembersButtons[rand] = temp;
         }
+
         for (int i = 0; i < activeMembersButtons.Count && i < slots.Count; i++)
         {
-            activeMembersButtons[i].SetActive(true); // Aktifkan panelnya
+            activeMembersButtons[i].SetActive(true); 
             RectTransform rt = activeMembersButtons[i].GetComponent<RectTransform>();
-            rt.anchoredPosition = slots[i];
+            if (rt != null)
+            {
+                rt.anchoredPosition = slots[i];
+            }
         }
     }
 }

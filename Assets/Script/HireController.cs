@@ -360,13 +360,34 @@ public class HireController : MonoBehaviour
 
     public void kembali()
     {
+        if (statsmiku.activeSelf) { statsmiku.SetActive(false); resumepanelmiku.SetActive(true); return; }
+        if (statsalalten.activeSelf) { statsalalten.SetActive(false); resumepanelalalten.SetActive(true); return; }
+        if (statssicbg3.activeSelf) { statssicbg3.SetActive(false); resumepanelsicbg3.SetActive(true); return; }
+        
+        if (statsNPC1.activeSelf) { statsNPC1.SetActive(false); resumepanelNPC1.SetActive(true); return; }
+        if (statsNPC2.activeSelf) { statsNPC2.SetActive(false); resumepanelNPC2.SetActive(true); return; }
+        if (statsNPC3.activeSelf) { statsNPC3.SetActive(false); resumepanelNPC3.SetActive(true); return; }
+        if (statsNPC4.activeSelf) { statsNPC4.SetActive(false); resumepanelNPC4.SetActive(true); return; }
+        if (statsNPC5.activeSelf) { statsNPC5.SetActive(false); resumepanelNPC5.SetActive(true); return; }
+        if (statsNPC6.activeSelf) { statsNPC6.SetActive(false); resumepanelNPC6.SetActive(true); return; }
+        if (statsNPC7.activeSelf) { statsNPC7.SetActive(false); resumepanelNPC7.SetActive(true); return; }
+        if (statsNPC8.activeSelf) { statsNPC8.SetActive(false); resumepanelNPC8.SetActive(true); return; }
+        if (statsNPC9.activeSelf) { statsNPC9.SetActive(false); resumepanelNPC9.SetActive(true); return; }
+        
+        if (statsNPC14.activeSelf) { statsNPC14.SetActive(false); resumepanelNPC14.SetActive(true); return; }
+        if (statsNPC15.activeSelf) { statsNPC15.SetActive(false); resumepanelNPC15.SetActive(true); return; }
+        if (statsNPC16.activeSelf) { statsNPC16.SetActive(false); resumepanelNPC16.SetActive(true); return; }
+        if (statsNPC17.activeSelf) { statsNPC17.SetActive(false); resumepanelNPC17.SetActive(true); return; }
+        if (statsNPC18.activeSelf) { statsNPC18.SetActive(false); resumepanelNPC18.SetActive(true); return; }
+        if (statsNPC19.activeSelf) { statsNPC19.SetActive(false); resumepanelNPC19.SetActive(true); return; }
+
         HideAll();
         siluetpanel.SetActive(true);
         selectedNPC = "";
     }
 
     void HideAll()
-    {
+    { 
         siluetpanel.SetActive(false);
 
         mikupanel.SetActive(false);
