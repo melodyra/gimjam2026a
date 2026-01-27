@@ -67,7 +67,7 @@
     <Compile Include="Assets\Script\startgame.cs" />
     <Compile Include="Assets\Script\audiomanager.cs" />
     <Compile Include="Assets\Script\SFXsetting.cs" />
-    <Compile Include="Assets\cutscenetext.cs" />
+    <Compile Include="Assets\Script\cutscenetext.cs" />
     <Compile Include="Assets\Script\quit.cs" />
     <Compile Include="Assets\Script\switchload.cs" />
     <Compile Include="Assets\Script\BGMsetting.cs" />
