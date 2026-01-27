@@ -369,6 +369,7 @@
 "Assets/Script/quit.cs"
 "Assets/Script/SFXsetting.cs"
 "Assets/Script/startgame.cs"
+"Assets/Script/SwipeControl.cs"
 "Assets/Script/switchload.cs"
 "Assets/Script/TurnBasedCombat.cs"
 "Assets/Script/WaveManager.cs"
