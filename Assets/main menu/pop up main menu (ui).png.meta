@@ -1,0 +1,1161 @@
+fileFormatVersion: 2
+guid: 84c6e3707e09b4f4a8ff0e2e490cfae9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pop up main menu (ui)_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1460
+        width: 1605
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9058e6eb834a04a8df3c0852acd5dc
+      internalID: -1829360111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_1
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 2292
+        width: 320
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1c8784ffe98714aae744972557bf37
+      internalID: -1016025575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_2
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 2291
+        width: 291
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b75be673a3f05d4983e858dbd822390
+      internalID: -2114369539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_3
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 2292
+        width: 435
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724f0e5279bfd25408637aabb2edbede
+      internalID: 1202515047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_4
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 2195
+        width: 154
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b788821d26de7645835130ff789babc
+      internalID: 249706410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_5
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 2197
+        width: 82
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddd323590a2c894bb4e8a7960729af9
+      internalID: 1799320673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_6
+      rect:
+        serializedVersion: 2
+        x: 2980
+        y: 2217
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de78dd4c8435444384f9d5418099fa1
+      internalID: 1263906675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_7
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 2217
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348bff5ea70e1f7498c80f211dae804d
+      internalID: -1308664607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_8
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 2159
+        width: 123
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de94dfb8be8d5a64aae91ef1d1685b84
+      internalID: 1329124109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_9
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 2179
+        width: 71
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9948b13d58c4a419ba3681837ac0b0
+      internalID: 634629838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_10
+      rect:
+        serializedVersion: 2
+        x: 3041
+        y: 2179
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43e1defc6a38224c9423289de5f4eb4
+      internalID: 900379163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_11
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 2142
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7f8306200977841af59d64d1baf631
+      internalID: 522201013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_12
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 2142
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3f230f5b368994dbfc1d9efea5392c
+      internalID: 1312280872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_13
+      rect:
+        serializedVersion: 2
+        x: 3014
+        y: 2142
+        width: 140
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a14ff241c1ff84b80a7f59fe23b8be
+      internalID: 147153271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_14
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 2104
+        width: 121
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9649ddd777dbf4448cfb16c3983154b
+      internalID: 1804303922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_15
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 1911
+        width: 229
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8d7d814c9053f47bd3f3a37d3d9567
+      internalID: -834700592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_16
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 1911
+        width: 127
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c29f6ad638cc0459c99a64a770f0ad
+      internalID: 1238974324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_17
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 1912
+        width: 230
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376714a1abdda7c45ae9f10da1578583
+      internalID: -1669363930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_18
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 1914
+        width: 186
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9902a23a7b91443978739d51990292
+      internalID: 289269485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_19
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 1914
+        width: 128
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734844bcfd7a0a4409c44cad028378ab
+      internalID: -441118172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_20
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1796
+        width: 135
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0298fd737f43c4999a146497503902
+      internalID: -796920333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_21
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 1798
+        width: 149
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0255e868b91e954ca492d858dd070e5
+      internalID: 2062391070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_22
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 1786
+        width: 90
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b50c5650d769a44853084aecc88e27
+      internalID: -269188145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_23
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1758
+        width: 134
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112de86f4cc77894fa510b8136f7b619
+      internalID: -261880447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_24
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 1760
+        width: 162
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7aeb048575df0479e5912fec520db7
+      internalID: -1349284870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_25
+      rect:
+        serializedVersion: 2
+        x: 2545
+        y: 1762
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35bc5fb33e18a34399ace2dc08d197a
+      internalID: -319296271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_26
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 1748
+        width: 176
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689aac8eb4407784b8685407fbff3990
+      internalID: 1297366781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_27
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1720
+        width: 85
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15c392889c0aea438246156276909d2
+      internalID: -990278930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_28
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 1722
+        width: 98
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b801ad65ff448cf4fa9dc33afb24e276
+      internalID: 2145811372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_29
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 1722
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7507245457d0aaf48b36be991a5e8dd2
+      internalID: 1227174919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_30
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1239
+        width: 147
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e3e6834a499dc4583ef31d94c1a19e
+      internalID: -1887152569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_31
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1239
+        width: 231
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582b2c8828d7bd54abb8dd1bd1556db6
+      internalID: 1990680484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_32
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1241
+        width: 110
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2496177c5eff3d24ab4b43f2eda420f0
+      internalID: -481093973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_33
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 1238
+        width: 226
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3064b222a983d71429d8fa5b9306255a
+      internalID: 1364056630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_34
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 1239
+        width: 142
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768b9d67fd138ce40a04eda9f31ee3f9
+      internalID: 1653050651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_35
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 1224
+        width: 306
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582cf78d9b4d97e44a3ef49c041b357f
+      internalID: -588385972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_36
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 970
+        width: 672
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6915abf658ecced4293ac7fccad0deb8
+      internalID: -1028842555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_37
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 967
+        width: 648
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e94f94dae93304cacec0c2faf0cc9a
+      internalID: -1689459545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_38
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 731
+        width: 671
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b03604843af3c4a9b8d2cdcb0c8ad5
+      internalID: 1356130335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_39
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 727
+        width: 648
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a83cd2433db27944aed91a92ad27a15
+      internalID: 922448792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_40
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 501
+        width: 178
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d344f6d569af274fa0610570793a374
+      internalID: 23627451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_41
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 663
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b23f3d9ecec294e8c652d7d1be74b0
+      internalID: -2146188629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_42
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 504
+        width: 115
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f7509ad6aba464c8bcb4495fc253fe
+      internalID: -1290566778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_43
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 431
+        width: 1274
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f854cdab236684d975a0adc73fd314
+      internalID: 1896321307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_44
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 408
+        width: 145
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e02552ea5450434e9397eeb76fd7652
+      internalID: 249688240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_45
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 233
+        width: 286
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c792c1717fb151349b18426b494c36c8
+      internalID: 30133786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop up main menu (ui)_46
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 280
+        width: 1223
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a09581749a9beb4198658993c53f23d
+      internalID: 856160303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: eb2c1883a9c6bb348ac51c6cee716fee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pop up main menu (ui)_0: -1829360111
+      pop up main menu (ui)_1: -1016025575
+      pop up main menu (ui)_10: 900379163
+      pop up main menu (ui)_11: 522201013
+      pop up main menu (ui)_12: 1312280872
+      pop up main menu (ui)_13: 147153271
+      pop up main menu (ui)_14: 1804303922
+      pop up main menu (ui)_15: -834700592
+      pop up main menu (ui)_16: 1238974324
+      pop up main menu (ui)_17: -1669363930
+      pop up main menu (ui)_18: 289269485
+      pop up main menu (ui)_19: -441118172
+      pop up main menu (ui)_2: -2114369539
+      pop up main menu (ui)_20: -796920333
+      pop up main menu (ui)_21: 2062391070
+      pop up main menu (ui)_22: -269188145
+      pop up main menu (ui)_23: -261880447
+      pop up main menu (ui)_24: -1349284870
+      pop up main menu (ui)_25: -319296271
+      pop up main menu (ui)_26: 1297366781
+      pop up main menu (ui)_27: -990278930
+      pop up main menu (ui)_28: 2145811372
+      pop up main menu (ui)_29: 1227174919
+      pop up main menu (ui)_3: 1202515047
+      pop up main menu (ui)_30: -1887152569
+      pop up main menu (ui)_31: 1990680484
+      pop up main menu (ui)_32: -481093973
+      pop up main menu (ui)_33: 1364056630
+      pop up main menu (ui)_34: 1653050651
+      pop up main menu (ui)_35: -588385972
+      pop up main menu (ui)_36: -1028842555
+      pop up main menu (ui)_37: -1689459545
+      pop up main menu (ui)_38: 1356130335
+      pop up main menu (ui)_39: 922448792
+      pop up main menu (ui)_4: 249706410
+      pop up main menu (ui)_40: 23627451
+      pop up main menu (ui)_41: -2146188629
+      pop up main menu (ui)_42: -1290566778
+      pop up main menu (ui)_43: 1896321307
+      pop up main menu (ui)_44: 249688240
+      pop up main menu (ui)_45: 30133786
+      pop up main menu (ui)_46: 856160303
+      pop up main menu (ui)_5: 1799320673
+      pop up main menu (ui)_6: 1263906675
+      pop up main menu (ui)_7: -1308664607
+      pop up main menu (ui)_8: 1329124109
+      pop up main menu (ui)_9: 634629838
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
