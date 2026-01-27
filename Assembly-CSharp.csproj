@@ -68,11 +68,12 @@
     <Compile Include="Assets\Script\audiomanager.cs" />
     <Compile Include="Assets\Script\SFXsetting.cs" />
     <Compile Include="Assets\Script\cutscenetext.cs" />
+    <Compile Include="Assets\Script\audio.cs" />
     <Compile Include="Assets\Script\quit.cs" />
     <Compile Include="Assets\Script\switchload.cs" />
     <Compile Include="Assets\Script\BGMsetting.cs" />
-    <Compile Include="Assets\audio.cs" />
     <Compile Include="Assets\Script\minimenu.cs" />
+    <Compile Include="Assets\Script\pause.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
