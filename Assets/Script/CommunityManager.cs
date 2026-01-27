@@ -3,90 +3,52 @@ using UnityEngine;
 
 public static class CommunityManager
 {
-    // MEMBER DEFAULT 
-    private static readonly List<string> defaultMembers = new List<string>()
+    public static readonly List<string> allHireableNPCs = new List<string>()
     {
-        "NPC1",
-        "NPC2",
-        "NPC3",
-        "NPC4",
-        "NPC5",
-        "NPC6",
-        "NPC7",
-        "NPC8",
-        "NPC9"
+        "miku", "alalten", "sicbg3", "NPC14", "NPC15", "NPC16", "NPC17", "NPC18", "NPC19"
     };
 
     public static List<string> members = new List<string>();
     public static string hiredCandidate = "";
 
-    // DATABASE STAT NPC
     public static Dictionary<string, NPCStat> npcStats = new Dictionary<string, NPCStat>()
     {
         // NPC AWAL
-        { "NPC1", new NPCStat(0, 50) },
-        { "NPC2", new NPCStat(65, 20) },
-        { "NPC3", new NPCStat(50, 50) },
-        { "NPC4", new NPCStat(15, 85) },
-        { "NPC5", new NPCStat(70, 55) },
-        { "NPC6", new NPCStat(35, 75) },
-        { "NPC7", new NPCStat(67, 45) },
-        { "NPC8", new NPCStat(80, 55) },
-        { "NPC9", new NPCStat(52, 77) },
+        { "NPC1", new NPCStat(0, 50) }, { "NPC2", new NPCStat(65, 20) }, { "NPC3", new NPCStat(50, 50) },
+        { "NPC4", new NPCStat(15, 85) }, { "NPC5", new NPCStat(70, 55) }, { "NPC6", new NPCStat(35, 75) },
+        { "NPC7", new NPCStat(67, 45) }, { "NPC8", new NPCStat(80, 55) }, { "NPC9", new NPCStat(52, 77) },
         
-        // NPC HIRE (Potensial, Survival )
-        { "miku", new NPCStat(57, 90) },
-        { "alalten", new NPCStat(62, 20) },
-        { "sicbg3", new NPCStat(85, 55) },
-        { "NPC14", new NPCStat(87, 15) },
-        { "NPC15", new NPCStat(65, 65) },
-        { "NPC16", new NPCStat(79, 10) },
-        { "NPC17", new NPCStat(30, 64) },
-        { "NPC18", new NPCStat(73, 66) },
-        { "NPC19", new NPCStat(27, 27) }
+        // NPC HIRE
+        { "miku", new NPCStat(57, 90) }, { "alalten", new NPCStat(62, 20) }, { "sicbg3", new NPCStat(85, 55) },
+        { "NPC14", new NPCStat(87, 15) }, { "NPC15", new NPCStat(65, 65) }, { "NPC16", new NPCStat(79, 10) },
+        { "NPC17", new NPCStat(30, 64) }, { "NPC18", new NPCStat(73, 66) }, { "NPC19", new NPCStat(27, 27) }
     };
 
-    // RESET WAJIB (INI KUNCI)
     public static void ResetCommunity()
     {
-        members = new List<string>(defaultMembers);
+        members = new List<string>() { "NPC1", "NPC2", "NPC3", "NPC4", "NPC5", "NPC6", "NPC7", "NPC8", "NPC9" };
         hiredCandidate = "";
-        Debug.Log("Members: " + string.Join(", ", members));
     }
 
-    // TOTAL STAT
     public static void GetCommunityStats(out int totalSurvival, out int totalPotential)
     {
-        totalSurvival = 0;
-        totalPotential = 0;
-
+        totalSurvival = 0; totalPotential = 0;
         foreach (var member in members)
         {
-            if (npcStats.ContainsKey(member))
-            {
+            if (npcStats.ContainsKey(member)) {
                 totalSurvival += npcStats[member].survival;
                 totalPotential += npcStats[member].potential;
             }
         }
     }
 
-    public static void PrintCommunity(string title)
-    {
-        GetCommunityStats(out int surv, out int pot);
-        Debug.Log("Members: " + string.Join(", ", members));
-        Debug.Log($"Total Survival: {surv}");
-        Debug.Log($"Total Potential: {pot}");
+    public static void PrintCommunity(string title) {
+        Debug.Log($"--- {title} ---");
+        Debug.Log("Anggota saat ini: " + string.Join(", ", members));
     }
 
-    public class NPCStat
-    {
-        public int potential;
-        public int survival;
-
-        public NPCStat(int pot, int surv)
-        {
-            potential = pot;
-            survival = surv;
-        }
+    public class NPCStat {
+        public int potential; public int survival;
+        public NPCStat(int pot, int surv) { potential = pot; survival = surv; }
     }
 }

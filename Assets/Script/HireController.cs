@@ -21,6 +21,34 @@ public class HireController : MonoBehaviour
     public GameObject resumepanelsicbg3;
     public GameObject statssicbg3;
 
+    public GameObject NPC1panel;
+    public GameObject resumepanelNPC1;
+    public GameObject statsNPC1;
+    public GameObject NPC2panel;
+    public GameObject resumepanelNPC2;
+    public GameObject statsNPC2;
+    public GameObject NPC3panel;
+    public GameObject resumepanelNPC3;
+    public GameObject statsNPC3;
+    public GameObject NPC4panel;
+    public GameObject resumepanelNPC4;
+    public GameObject statsNPC4;
+    public GameObject NPC5panel;
+    public GameObject resumepanelNPC5;
+    public GameObject statsNPC5;
+    public GameObject NPC6panel;
+    public GameObject resumepanelNPC6;
+    public GameObject statsNPC6;
+    public GameObject NPC7panel;
+    public GameObject resumepanelNPC7;
+    public GameObject statsNPC7;
+    public GameObject NPC8panel;
+    public GameObject resumepanelNPC8;
+    public GameObject statsNPC8;
+    public GameObject NPC9panel;
+    public GameObject resumepanelNPC9;
+    public GameObject statsNPC9;
+
     // ===== NPC 14 - 19 =====
     public GameObject NPC14panel;
     public GameObject resumepanelNPC14;
@@ -56,6 +84,15 @@ public class HireController : MonoBehaviour
         alaltenpanel.SetActive(false);
         sicbg3panel.SetActive(false);
 
+        NPC1panel.SetActive(false);
+        NPC2panel.SetActive(false);
+        NPC3panel.SetActive(false);
+        NPC4panel.SetActive(false);
+        NPC5panel.SetActive(false);
+        NPC6panel.SetActive(false);
+        NPC7panel.SetActive(false);
+        NPC8panel.SetActive(false);
+        NPC9panel.SetActive(false);
         NPC14panel.SetActive(false);
         NPC15panel.SetActive(false);
         NPC16panel.SetActive(false);
@@ -110,6 +147,150 @@ public class HireController : MonoBehaviour
     {
         resumepanelsicbg3.SetActive(false);
         statssicbg3.SetActive(true);
+    }
+
+    // ===== NPC1 =====
+    public void NPC1button()
+    {
+        selectedNPC = "NPC1";
+        HideAll();
+        NPC1panel.SetActive(true);
+        resumepanelNPC1.SetActive(true);
+        statsNPC1.SetActive(false);
+    }
+
+    public void detailstatsNPC1()
+    {
+        resumepanelNPC1.SetActive(false);
+        statsNPC1.SetActive(true);
+    }
+
+    // ===== NPC2 =====
+    public void NPC2button()
+    {
+        selectedNPC = "NPC2";
+        HideAll();
+        NPC2panel.SetActive(true);
+        resumepanelNPC2.SetActive(true);
+        statsNPC2.SetActive(false);
+    }
+
+    public void detailstatsNPC2()
+    {
+        resumepanelNPC2.SetActive(false);
+        statsNPC2.SetActive(true);
+    }
+
+    // ===== NPC3 =====
+    public void NPC3button()
+    {
+        selectedNPC = "NPC3";
+        HideAll();
+        NPC3panel.SetActive(true);
+        resumepanelNPC3.SetActive(true);
+        statsNPC3.SetActive(false);
+    }
+
+    public void detailstatsNPC3()
+    {
+        resumepanelNPC3.SetActive(false);
+        statsNPC3.SetActive(true);
+    }
+
+    // ===== NPC4 =====
+    public void NPC4button()
+    {
+        selectedNPC = "NPC4";
+        HideAll();
+        NPC4panel.SetActive(true);
+        resumepanelNPC4.SetActive(true);
+        statsNPC4.SetActive(false);
+    }
+
+    public void detailstatsNPC4()
+    {
+        resumepanelNPC4.SetActive(false);
+        statsNPC4.SetActive(true);
+    }
+
+    // ===== NPC5 =====
+    public void NPC5button()
+    {
+        selectedNPC = "NPC5";
+        HideAll();
+        NPC5panel.SetActive(true);
+        resumepanelNPC5.SetActive(true);
+        statsNPC5.SetActive(false);
+    }
+
+    public void detailstatsNPC5()
+    {
+        resumepanelNPC5.SetActive(false);
+        statsNPC5.SetActive(true);
+    }
+
+    // ===== NPC6 =====
+    public void NPC6button()
+    {
+        selectedNPC = "NPC6";
+        HideAll();
+        NPC6panel.SetActive(true);
+        resumepanelNPC6.SetActive(true);
+        statsNPC6.SetActive(false);
+    }
+
+    public void detailstatsNPC6()
+    {
+        resumepanelNPC6.SetActive(false);
+        statsNPC6.SetActive(true);
+    }
+
+    // ===== NPC7 =====
+    public void NPC7button()
+    {
+        selectedNPC = "NPC7";
+        HideAll();
+        NPC7panel.SetActive(true);
+        resumepanelNPC7.SetActive(true);
+        statsNPC7.SetActive(false);
+    }
+
+    public void detailstatsNPC7()
+    {
+        resumepanelNPC7.SetActive(false);
+        statsNPC7.SetActive(true);
+    }
+
+    // ===== NPC8 =====
+    public void NPC8button()
+    {
+        selectedNPC = "NPC8";
+        HideAll();
+        NPC8panel.SetActive(true);
+        resumepanelNPC8.SetActive(true);
+        statsNPC8.SetActive(false);
+    }
+
+    public void detailstatsNPC8()
+    {
+        resumepanelNPC8.SetActive(false);
+        statsNPC8.SetActive(true);
+    }
+
+    // ===== NPC9 =====
+    public void NPC9button()
+    {
+        selectedNPC = "NPC9";
+        HideAll();
+        NPC9panel.SetActive(true);
+        resumepanelNPC9.SetActive(true);
+        statsNPC9.SetActive(false);
+    }
+
+    public void detailstatsNPC9()
+    {
+        resumepanelNPC9.SetActive(false);
+        statsNPC9.SetActive(true);
     }
 
     // ===== NPC14 =====
@@ -224,6 +405,15 @@ public class HireController : MonoBehaviour
         alaltenpanel.SetActive(false);
         sicbg3panel.SetActive(false);
 
+        NPC1panel.SetActive(false);
+        NPC2panel.SetActive(false);
+        NPC3panel.SetActive(false);
+        NPC4panel.SetActive(false);
+        NPC5panel.SetActive(false);
+        NPC6panel.SetActive(false);
+        NPC7panel.SetActive(false);
+        NPC8panel.SetActive(false);
+        NPC9panel.SetActive(false);
         NPC14panel.SetActive(false);
         NPC15panel.SetActive(false);
         NPC16panel.SetActive(false);
@@ -237,6 +427,26 @@ public class HireController : MonoBehaviour
         statsalalten.SetActive(false);
         resumepanelsicbg3.SetActive(false);
         statssicbg3.SetActive(false);
+
+
+        resumepanelNPC1.SetActive(false);
+        statsNPC1.SetActive(false);
+        resumepanelNPC2.SetActive(false);
+        statsNPC2.SetActive(false);
+        resumepanelNPC3.SetActive(false);
+        statsNPC3.SetActive(false);
+        resumepanelNPC4.SetActive(false);
+        statsNPC4.SetActive(false);
+        resumepanelNPC5.SetActive(false);
+        statsNPC5.SetActive(false);
+        resumepanelNPC6.SetActive(false);
+        statsNPC6.SetActive(false);
+        resumepanelNPC7.SetActive(false);
+        statsNPC7.SetActive(false);
+        resumepanelNPC8.SetActive(false);
+        statsNPC8.SetActive(false);
+        resumepanelNPC9.SetActive(false);
+        statsNPC9.SetActive(false);
 
         resumepanelNPC14.SetActive(false);
         statsNPC14.SetActive(false);

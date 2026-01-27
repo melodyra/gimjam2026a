@@ -3,45 +3,51 @@ using UnityEngine;
 
 public class FireRandomPosition : MonoBehaviour
 {
-    [Header("Semua Tombol NPC (9)")]
+    [Header("Semua Tombol Anggota (Total 18 atau semua kemungkinan NPC)")]
     public List<GameObject> npcButtons;
 
     List<Vector2> slots = new List<Vector2>()
     {
-        new Vector2(-632,  333),
-        new Vector2(-632,    0),
-        new Vector2(-632, -315),
-
-        new Vector2(0,     333),
-        new Vector2(0,       0),
-        new Vector2(0,    -315),
-
-        new Vector2(638,   333),
-        new Vector2(638,     0),
-        new Vector2(638,  -315),
+        new Vector2(-632,  333), new Vector2(-632,    0), new Vector2(-632, -315),
+        new Vector2(0,     333), new Vector2(0,       0), new Vector2(0,    -315),
+        new Vector2(638,   333), new Vector2(638,     0), new Vector2(638,  -315),
     };
 
-    void Start()
+    void OnEnable() // Menggunakan OnEnable agar refresh setiap kali masuk scene
     {
         RandomizePositions();
     }
 
     void RandomizePositions()
     {
-        // copy list
-        List<GameObject> shuffled = new List<GameObject>(npcButtons);
-
-        // Fisher–Yates shuffle
-        for (int i = 0; i < shuffled.Count; i++)
+        // 1. Sembunyikan semua tombol dulu
+        foreach (var btn in npcButtons)
         {
-            int rand = Random.Range(i, shuffled.Count);
-            (shuffled[i], shuffled[rand]) = (shuffled[rand], shuffled[i]);
+            btn.SetActive(false);
         }
 
-        // pasang ke slot
-        for (int i = 0; i < shuffled.Count && i < slots.Count; i++)
+        // 2. Filter: Cari tombol yang namanya ada di list CommunityManager.members
+        List<GameObject> activeMembersButtons = new List<GameObject>();
+        foreach (var btn in npcButtons)
         {
-            RectTransform rt = shuffled[i].GetComponent<RectTransform>();
+            if (CommunityManager.members.Contains(btn.name))
+            {
+                activeMembersButtons.Add(btn);
+            }
+        }
+
+        // 3. Acak posisi tombol yang aktif saja
+        for (int i = 0; i < activeMembersButtons.Count; i++)
+        {
+            int rand = Random.Range(i, activeMembersButtons.Count);
+            (activeMembersButtons[i], activeMembersButtons[rand]) = (activeMembersButtons[rand], activeMembersButtons[i]);
+        }
+
+        // 4. Aktifkan tombol dan pasang ke slot (Maksimal 9 sesuai jumlah slot)
+        for (int i = 0; i < activeMembersButtons.Count && i < slots.Count; i++)
+        {
+            activeMembersButtons[i].SetActive(true); // Aktifkan panelnya
+            RectTransform rt = activeMembersButtons[i].GetComponent<RectTransform>();
             rt.anchoredPosition = slots[i];
         }
     }

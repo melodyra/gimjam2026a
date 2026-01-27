@@ -18,19 +18,14 @@ public class HireRandomSlot : MonoBehaviour
 
     public void RandomizeNPCButtons()
     {
-        // 1️⃣ Matikan semua dulu
         foreach (var btn in npcButtons)
             btn.SetActive(false);
-
-        // 2️⃣ Acak list
         List<GameObject> shuffled = new List<GameObject>(npcButtons);
         for (int i = 0; i < shuffled.Count; i++)
         {
             int rand = Random.Range(i, shuffled.Count);
             (shuffled[i], shuffled[rand]) = (shuffled[rand], shuffled[i]);
         }
-
-        // 3️⃣ Ambil 3 pertama
         SetButton(shuffled[0], slot1);
         SetButton(shuffled[1], slot2);
         SetButton(shuffled[2], slot3);
