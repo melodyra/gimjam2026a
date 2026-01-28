@@ -498,10 +498,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1555136707}
-        m_TargetAssemblyTypeName: quit, Assembly-CSharp
-        m_MethodName: Quitgame
-        m_Mode: 1
+      - m_Target: {fileID: 1555136708}
+        m_TargetAssemblyTypeName: startgame, Assembly-CSharp
+        m_MethodName: MovetoScene
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1411,10 +1411,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1555136707}
-        m_TargetAssemblyTypeName: quit, Assembly-CSharp
-        m_MethodName: Quitgame
-        m_Mode: 1
+      - m_Target: {fileID: 1555136708}
+        m_TargetAssemblyTypeName: startgame, Assembly-CSharp
+        m_MethodName: MovetoScene
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2209,6 +2209,7 @@ GameObject:
   - component: {fileID: 1555136705}
   - component: {fileID: 1555136706}
   - component: {fileID: 1555136707}
+  - component: {fileID: 1555136708}
   m_Layer: 0
   m_Name: PauseMenu
   m_TagString: Untagged
@@ -2262,6 +2263,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d5fd01f09435dec45820134a27d8cda8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1555136708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555136704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3bbfaddb9b702846aff193c61909e47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1730209571

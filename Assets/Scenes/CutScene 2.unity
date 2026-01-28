@@ -1378,10 +1378,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2057173047}
-        m_TargetAssemblyTypeName: quit, Assembly-CSharp
-        m_MethodName: Quitgame
-        m_Mode: 1
+      - m_Target: {fileID: 2057173049}
+        m_TargetAssemblyTypeName: startgame, Assembly-CSharp
+        m_MethodName: MovetoScene
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2592,10 +2592,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2057173047}
-        m_TargetAssemblyTypeName: quit, Assembly-CSharp
-        m_MethodName: Quitgame
-        m_Mode: 1
+      - m_Target: {fileID: 2057173049}
+        m_TargetAssemblyTypeName: startgame, Assembly-CSharp
+        m_MethodName: MovetoScene
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2653,6 +2653,7 @@ GameObject:
   - component: {fileID: 2057173048}
   - component: {fileID: 2057173046}
   - component: {fileID: 2057173047}
+  - component: {fileID: 2057173049}
   m_Layer: 0
   m_Name: PauseMenu
   m_TagString: Untagged
@@ -2708,6 +2709,18 @@ Transform:
   - {fileID: 1816101698}
   m_Father: {fileID: 1017917790}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2057173049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057173045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3bbfaddb9b702846aff193c61909e47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
