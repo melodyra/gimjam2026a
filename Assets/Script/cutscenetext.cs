@@ -11,6 +11,7 @@ public class Dialogue : MonoBehaviour
     public string[] lines1;
     public string[] lines2;
     public float textSpeed;
+    public int id;
 
     private int index;
 
@@ -66,7 +67,7 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(id);
         }
     }
 }

@@ -1958,6 +1958,7 @@ MonoBehaviour:
   - MC
   - MC
   textSpeed: 0.1
+  id: 2
 --- !u!1 &1432109765
 GameObject:
   m_ObjectHideFlags: 0
