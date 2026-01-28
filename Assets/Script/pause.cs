@@ -15,4 +15,11 @@ public class pause : MonoBehaviour
             lines1[i].SetActive(false);
         }
     }
+    public void resume(){
+        Pause_Menu.SetActive(false);
+        for(int i = 0; i < lines1.Length; i++)
+        {
+            lines1[i].SetActive(true);
+        }
+    }
 }
