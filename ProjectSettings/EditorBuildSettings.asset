@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: c39ab3c7fa9d1d845842eab037ae8012
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
+    path: Assets/Scenes/CutScene1.unity
     guid: 9bdc10e1b9143b644bb5f3dbf1cff2b9
   - enabled: 1
     path: Assets/Scenes/HireSceneFix.unity
@@ -21,6 +21,12 @@ EditorBuildSettings:
     path: Assets/Scenes/GamePlay.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/LoseScene.unity
-    guid: 617267068b55f2748b091b61e25ba0be
+    path: Assets/Scenes/CutScene2.unity
+    guid: 3e847cb34a282b04ab7fc274f0c62663
+  - enabled: 1
+    path: Assets/Scenes/Good Ending.unity
+    guid: 4e0eea5f035485947bdf9351f8ba4e4c
+  - enabled: 1
+    path: Assets/Scenes/Bad Ending.unity
+    guid: 212ab953c43592946bb7b0c0c2d2eff0
   m_configObjects: {}

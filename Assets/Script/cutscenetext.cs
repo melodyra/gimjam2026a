@@ -12,6 +12,9 @@ public class Dialogue : MonoBehaviour
     public string[] lines2;
     public float textSpeed;
 
+    // Tambahkan ini agar bisa isi nama scene di Inspector
+    public string namaSceneTujuan; 
+
     private int index;
 
     // Start is called before the first frame update
@@ -66,7 +69,7 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(namaSceneTujuan); 
         }
     }
 }
