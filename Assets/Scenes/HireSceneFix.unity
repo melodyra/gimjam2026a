@@ -1284,6 +1284,7 @@ GameObject:
   - component: {fileID: 81189994}
   - component: {fileID: 81189993}
   - component: {fileID: 81189992}
+  - component: {fileID: 81189995}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -1405,6 +1406,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81189990}
   m_CullTransparentMesh: 1
+--- !u!114 &81189995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81189990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &83316094
 GameObject:
   m_ObjectHideFlags: 0
@@ -3465,6 +3495,7 @@ GameObject:
   - component: {fileID: 203752434}
   - component: {fileID: 203752433}
   - component: {fileID: 203752432}
+  - component: {fileID: 203752435}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -3586,6 +3617,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203752430}
   m_CullTransparentMesh: 1
+--- !u!114 &203752435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203752430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &210197873
 GameObject:
   m_ObjectHideFlags: 0
@@ -4103,6 +4163,7 @@ GameObject:
   - component: {fileID: 268566208}
   - component: {fileID: 268566207}
   - component: {fileID: 268566206}
+  - component: {fileID: 268566209}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -4224,6 +4285,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268566204}
   m_CullTransparentMesh: 1
+--- !u!114 &268566209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268566204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &268757992
 GameObject:
   m_ObjectHideFlags: 0
@@ -4381,6 +4471,7 @@ GameObject:
   - component: {fileID: 273163633}
   - component: {fileID: 273163632}
   - component: {fileID: 273163631}
+  - component: {fileID: 273163634}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -4502,6 +4593,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273163629}
   m_CullTransparentMesh: 1
+--- !u!114 &273163634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273163629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &282724378
 GameObject:
   m_ObjectHideFlags: 0
@@ -5289,6 +5409,7 @@ GameObject:
   - component: {fileID: 315387770}
   - component: {fileID: 315387769}
   - component: {fileID: 315387768}
+  - component: {fileID: 315387771}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -5410,6 +5531,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315387766}
   m_CullTransparentMesh: 1
+--- !u!114 &315387771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315387766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &317074113
 GameObject:
   m_ObjectHideFlags: 0
@@ -6965,6 +7115,7 @@ GameObject:
   - component: {fileID: 511340042}
   - component: {fileID: 511340041}
   - component: {fileID: 511340040}
+  - component: {fileID: 511340043}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -7086,6 +7237,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511340038}
   m_CullTransparentMesh: 1
+--- !u!114 &511340043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511340038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &532990466
 GameObject:
   m_ObjectHideFlags: 0
@@ -7575,6 +7755,7 @@ GameObject:
   - component: {fileID: 569107878}
   - component: {fileID: 569107877}
   - component: {fileID: 569107876}
+  - component: {fileID: 569107879}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -7696,6 +7877,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569107874}
   m_CullTransparentMesh: 1
+--- !u!114 &569107879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569107874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &571777406
 GameObject:
   m_ObjectHideFlags: 0
@@ -9078,6 +9288,7 @@ GameObject:
   - component: {fileID: 665849923}
   - component: {fileID: 665849922}
   - component: {fileID: 665849921}
+  - component: {fileID: 665849924}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -9199,6 +9410,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665849919}
   m_CullTransparentMesh: 1
+--- !u!114 &665849924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665849919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &670928150
 GameObject:
   m_ObjectHideFlags: 0
@@ -9746,6 +9986,7 @@ GameObject:
   - component: {fileID: 705544805}
   - component: {fileID: 705544804}
   - component: {fileID: 705544803}
+  - component: {fileID: 705544806}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -9867,6 +10108,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705544801}
   m_CullTransparentMesh: 1
+--- !u!114 &705544806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705544801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &709972443
 GameObject:
   m_ObjectHideFlags: 0
@@ -11753,6 +12023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 818256990}
   - component: {fileID: 818256991}
+  - component: {fileID: 818256992}
   m_Layer: 0
   m_Name: Detail
   m_TagString: Untagged
@@ -11871,6 +12142,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &818256992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818256989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5e15027467ad124e89847169bc070ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfx: {fileID: 818256991}
 --- !u!1 &831705821
 GameObject:
   m_ObjectHideFlags: 0
@@ -13715,6 +13999,7 @@ GameObject:
   - component: {fileID: 965814370}
   - component: {fileID: 965814369}
   - component: {fileID: 965814368}
+  - component: {fileID: 965814371}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -13836,6 +14121,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965814366}
   m_CullTransparentMesh: 1
+--- !u!114 &965814371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965814366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &968287253
 GameObject:
   m_ObjectHideFlags: 0
@@ -15639,6 +15953,7 @@ GameObject:
   - component: {fileID: 1103054549}
   - component: {fileID: 1103054548}
   - component: {fileID: 1103054547}
+  - component: {fileID: 1103054550}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -15760,6 +16075,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103054545}
   m_CullTransparentMesh: 1
+--- !u!114 &1103054550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103054545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1105210266
 GameObject:
   m_ObjectHideFlags: 0
@@ -16219,6 +16563,7 @@ GameObject:
   - component: {fileID: 1159024248}
   - component: {fileID: 1159024247}
   - component: {fileID: 1159024246}
+  - component: {fileID: 1159024249}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -16340,6 +16685,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1159024244}
   m_CullTransparentMesh: 1
+--- !u!114 &1159024249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159024244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1165205453
 GameObject:
   m_ObjectHideFlags: 0
@@ -17091,6 +17465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1215179517}
   - component: {fileID: 1215179518}
+  - component: {fileID: 1215179519}
   m_Layer: 0
   m_Name: Normal
   m_TagString: Untagged
@@ -17209,6 +17584,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1215179519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215179516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5e15027467ad124e89847169bc070ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfx: {fileID: 1215179518}
 --- !u!1 &1223086578
 GameObject:
   m_ObjectHideFlags: 0
@@ -18770,6 +19158,7 @@ GameObject:
   - component: {fileID: 1303209677}
   - component: {fileID: 1303209676}
   - component: {fileID: 1303209675}
+  - component: {fileID: 1303209678}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -18891,6 +19280,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1303209673}
   m_CullTransparentMesh: 1
+--- !u!114 &1303209678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303209673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1307697976
 GameObject:
   m_ObjectHideFlags: 0
@@ -19037,6 +19455,7 @@ GameObject:
   - component: {fileID: 1311313448}
   - component: {fileID: 1311313447}
   - component: {fileID: 1311313446}
+  - component: {fileID: 1311313449}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -19158,6 +19577,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311313444}
   m_CullTransparentMesh: 1
+--- !u!114 &1311313449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311313444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1320903596
 GameObject:
   m_ObjectHideFlags: 0
@@ -19379,6 +19827,7 @@ GameObject:
   - component: {fileID: 1352235039}
   - component: {fileID: 1352235038}
   - component: {fileID: 1352235037}
+  - component: {fileID: 1352235040}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -19500,6 +19949,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352235035}
   m_CullTransparentMesh: 1
+--- !u!114 &1352235040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352235035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1373562339
 GameObject:
   m_ObjectHideFlags: 0
@@ -22554,6 +23032,7 @@ GameObject:
   - component: {fileID: 1666166713}
   - component: {fileID: 1666166712}
   - component: {fileID: 1666166711}
+  - component: {fileID: 1666166714}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -22675,6 +23154,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1666166709}
   m_CullTransparentMesh: 1
+--- !u!114 &1666166714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666166709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1674180331
 GameObject:
   m_ObjectHideFlags: 0
@@ -22821,6 +23329,7 @@ GameObject:
   - component: {fileID: 1687387103}
   - component: {fileID: 1687387102}
   - component: {fileID: 1687387101}
+  - component: {fileID: 1687387104}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -22942,6 +23451,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687387099}
   m_CullTransparentMesh: 1
+--- !u!114 &1687387104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687387099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1692342843
 GameObject:
   m_ObjectHideFlags: 0
@@ -26140,6 +26678,7 @@ GameObject:
   - component: {fileID: 1943660744}
   - component: {fileID: 1943660743}
   - component: {fileID: 1943660742}
+  - component: {fileID: 1943660745}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -26261,6 +26800,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943660740}
   m_CullTransparentMesh: 1
+--- !u!114 &1943660745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943660740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1950515396
 GameObject:
   m_ObjectHideFlags: 0
@@ -26273,6 +26841,7 @@ GameObject:
   - component: {fileID: 1950515400}
   - component: {fileID: 1950515399}
   - component: {fileID: 1950515398}
+  - component: {fileID: 1950515401}
   m_Layer: 5
   m_Name: Detailstatbutt
   m_TagString: Untagged
@@ -26394,6 +26963,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950515396}
   m_CullTransparentMesh: 1
+--- !u!114 &1950515401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950515396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 818256992}
+          m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
+          m_MethodName: play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1954984345
 GameObject:
   m_ObjectHideFlags: 0
@@ -28448,6 +29046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2071495030}
   - component: {fileID: 2071495031}
+  - component: {fileID: 2071495032}
   m_Layer: 0
   m_Name: Fire
   m_TagString: Untagged
@@ -28566,6 +29165,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2071495032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071495029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5e15027467ad124e89847169bc070ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfx: {fileID: 2071495031}
 --- !u!1 &2079258788
 GameObject:
   m_ObjectHideFlags: 0
