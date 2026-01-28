@@ -64,11 +64,17 @@ public class HireController : MonoBehaviour
     public GameObject NPC19panel;
     public GameObject resumepanelNPC19;
     public GameObject statsNPC19;
+    public GameObject TutorialPopUp;
+    public static bool sudahSelesaiTutorial = false;
+    
 
     public static string selectedNPC;
+    
+    public TutorialHireController tutorialScript;
 
     void Start()
     {
+        TutorialPopUp.SetActive(true);
         siluetpanel.SetActive(true);
 
         mikupanel.SetActive(false);
@@ -91,7 +97,23 @@ public class HireController : MonoBehaviour
         NPC17panel.SetActive(false);
         NPC18panel.SetActive(false);
         NPC19panel.SetActive(false);
+
+        if (sudahSelesaiTutorial)
+        {
+        if(TutorialPopUp != null) TutorialPopUp.SetActive(false);
+        }
+        else
+        {
+        if(TutorialPopUp != null) TutorialPopUp.SetActive(true);
+        }
     }
+
+    public void SetTutorialFinished()
+    {
+        sudahSelesaiTutorial = true;
+        if(TutorialPopUp != null) TutorialPopUp.SetActive(false);
+    }
+
     public void mikubutton()
     {
         selectedNPC = "miku";
@@ -99,6 +121,10 @@ public class HireController : MonoBehaviour
         mikupanel.SetActive(true);
         resumepanelmiku.SetActive(true);
         statsmiku.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsmiku()
@@ -114,6 +140,10 @@ public class HireController : MonoBehaviour
         alaltenpanel.SetActive(true);
         resumepanelalalten.SetActive(true);
         statsalalten.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsalalten()
@@ -129,6 +159,10 @@ public class HireController : MonoBehaviour
         sicbg3panel.SetActive(true);
         resumepanelsicbg3.SetActive(true);
         statssicbg3.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatssicbg3()
@@ -144,6 +178,10 @@ public class HireController : MonoBehaviour
         NPC1panel.SetActive(true);
         resumepanelNPC1.SetActive(true);
         statsNPC1.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC1()
@@ -159,6 +197,10 @@ public class HireController : MonoBehaviour
         NPC2panel.SetActive(true);
         resumepanelNPC2.SetActive(true);
         statsNPC2.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC2()
@@ -174,6 +216,10 @@ public class HireController : MonoBehaviour
         NPC3panel.SetActive(true);
         resumepanelNPC3.SetActive(true);
         statsNPC3.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC3()
@@ -189,6 +235,10 @@ public class HireController : MonoBehaviour
         NPC4panel.SetActive(true);
         resumepanelNPC4.SetActive(true);
         statsNPC4.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC4()
@@ -204,6 +254,10 @@ public class HireController : MonoBehaviour
         NPC5panel.SetActive(true);
         resumepanelNPC5.SetActive(true);
         statsNPC5.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC5()
@@ -219,6 +273,10 @@ public class HireController : MonoBehaviour
         NPC6panel.SetActive(true);
         resumepanelNPC6.SetActive(true);
         statsNPC6.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC6()
@@ -234,6 +292,10 @@ public class HireController : MonoBehaviour
         NPC7panel.SetActive(true);
         resumepanelNPC7.SetActive(true);
         statsNPC7.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC7()
@@ -249,6 +311,10 @@ public class HireController : MonoBehaviour
         NPC8panel.SetActive(true);
         resumepanelNPC8.SetActive(true);
         statsNPC8.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC8()
@@ -264,6 +330,10 @@ public class HireController : MonoBehaviour
         NPC9panel.SetActive(true);
         resumepanelNPC9.SetActive(true);
         statsNPC9.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC9()
@@ -279,6 +349,10 @@ public class HireController : MonoBehaviour
         NPC10panel.SetActive(true);
         resumepanelNPC10.SetActive(true);
         statsNPC10.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC10()
@@ -294,6 +368,10 @@ public class HireController : MonoBehaviour
         NPC14panel.SetActive(true);
         resumepanelNPC14.SetActive(true);
         statsNPC14.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC14()
@@ -309,6 +387,10 @@ public class HireController : MonoBehaviour
         NPC15panel.SetActive(true);
         resumepanelNPC15.SetActive(true);
         statsNPC15.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC15()
@@ -324,6 +406,10 @@ public class HireController : MonoBehaviour
         NPC16panel.SetActive(true);
         resumepanelNPC16.SetActive(true);
         statsNPC16.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC16()
@@ -339,6 +425,10 @@ public class HireController : MonoBehaviour
         NPC17panel.SetActive(true);
         resumepanelNPC17.SetActive(true);
         statsNPC17.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC17()
@@ -354,6 +444,10 @@ public class HireController : MonoBehaviour
         NPC18panel.SetActive(true);
         resumepanelNPC18.SetActive(true);
         statsNPC18.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC18()
@@ -369,6 +463,10 @@ public class HireController : MonoBehaviour
         NPC19panel.SetActive(true);
         resumepanelNPC19.SetActive(true);
         statsNPC19.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
 
     public void detailstatsNPC19()

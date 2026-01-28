@@ -100,11 +100,24 @@ public class FireController : MonoBehaviour
     public GameObject statsNPC19;
 
     public static string selectedNPC;
+    public GameObject TutorialPopUp;
+    public TutorialFireController tutorialScript;
+    public static bool sudahSelesaiTutorial = false;
+    
 
     void Start()
     {
         siluetpanel.SetActive(true);
+        TutorialPopUp.SetActive(true);
         MatikanSemuaPanelNPC();
+        if (sudahSelesaiTutorial)
+        {
+            if(TutorialPopUp != null) TutorialPopUp.SetActive(false);
+        }
+        else
+        {
+            if(TutorialPopUp != null) TutorialPopUp.SetActive(true);
+        }
     }
 
     private void MatikanSemuaPanelNPC()
@@ -137,6 +150,10 @@ public class FireController : MonoBehaviour
         NPC1Panel.SetActive(true);
         resumepanelNPC1.SetActive(true);
         statsNPC1.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC1()
     {
@@ -151,6 +168,10 @@ public class FireController : MonoBehaviour
         NPC2Panel.SetActive(true);
         resumepanelNPC2.SetActive(true);
         statsNPC2.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC2()
     {
@@ -165,6 +186,10 @@ public class FireController : MonoBehaviour
         NPC3Panel.SetActive(true);
         resumepanelNPC3.SetActive(true);
         statsNPC3.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC3()
     {
@@ -179,6 +204,10 @@ public class FireController : MonoBehaviour
         NPC4Panel.SetActive(true);
         resumepanelNPC4.SetActive(true);
         statsNPC4.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC4()
     {
@@ -193,6 +222,10 @@ public class FireController : MonoBehaviour
         NPC5Panel.SetActive(true);
         resumepanelNPC5.SetActive(true);
         statsNPC5.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC5()
     {
@@ -207,6 +240,10 @@ public class FireController : MonoBehaviour
         NPC6Panel.SetActive(true);
         resumepanelNPC6.SetActive(true);
         statsNPC6.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC6()
     {
@@ -221,6 +258,10 @@ public class FireController : MonoBehaviour
         NPC7Panel.SetActive(true);
         resumepanelNPC7.SetActive(true);
         statsNPC7.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC7()
     {
@@ -235,6 +276,10 @@ public class FireController : MonoBehaviour
         NPC8Panel.SetActive(true);
         resumepanelNPC8.SetActive(true);
         statsNPC8.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC8()
     {
@@ -249,6 +294,10 @@ public class FireController : MonoBehaviour
         NPC9Panel.SetActive(true);
         resumepanelNPC9.SetActive(true);
         statsNPC9.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC9()
     {
@@ -263,6 +312,10 @@ public class FireController : MonoBehaviour
         NPC10Panel.SetActive(true);
         resumepanelNPC10.SetActive(true);
         statsNPC10.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC10()
     {
@@ -277,6 +330,10 @@ public class FireController : MonoBehaviour
         mikuPanel.SetActive(true);
         resumepanelmiku.SetActive(true);
         statsmiku.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailmiku()
     {
@@ -291,6 +348,10 @@ public class FireController : MonoBehaviour
         alaltenPanel.SetActive(true);
         resumepanelalalten.SetActive(true);
         statsalalten.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailalalten()
     {
@@ -304,6 +365,10 @@ public class FireController : MonoBehaviour
         sicbg3Panel.SetActive(true);
         resumepanelsicbg3.SetActive(true);
         statssicbg3.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailsicbg3()
     {
@@ -318,6 +383,10 @@ public class FireController : MonoBehaviour
         NPC14Panel.SetActive(true);
         resumepanelNPC14.SetActive(true);
         statsNPC14.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC14()
     {
@@ -332,6 +401,10 @@ public class FireController : MonoBehaviour
         NPC15Panel.SetActive(true);
         resumepanelNPC15.SetActive(true);
         statsNPC15.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC15()
     {
@@ -346,6 +419,10 @@ public class FireController : MonoBehaviour
         NPC16Panel.SetActive(true);
         resumepanelNPC16.SetActive(true);
         statsNPC16.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC16()
     {
@@ -360,6 +437,10 @@ public class FireController : MonoBehaviour
         NPC17Panel.SetActive(true);
         resumepanelNPC17.SetActive(true);
         statsNPC17.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC17()
     {
@@ -374,6 +455,10 @@ public class FireController : MonoBehaviour
         NPC18Panel.SetActive(true);
         resumepanelNPC18.SetActive(true);
         statsNPC18.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC18()
     {
@@ -388,6 +473,10 @@ public class FireController : MonoBehaviour
         NPC19Panel.SetActive(true);
         resumepanelNPC19.SetActive(true);
         statsNPC19.SetActive(false);
+        if (tutorialScript != null) 
+    {
+        tutorialScript.StartTutorialSequence();
+    }
     }
     public void detailNPC19()
     {

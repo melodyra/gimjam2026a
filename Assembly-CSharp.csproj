@@ -67,6 +67,7 @@
     <Compile Include="Assets\Script\audiomanager.cs" />
     <Compile Include="Assets\Script\SFXsetting.cs" />
     <Compile Include="Assets\Script\cutscenetext.cs" />
+    <Compile Include="Assets\Script\SwipeControl.cs" />
     <Compile Include="Assets\Script\HireRandomSlot.cs" />
     <Compile Include="Assets\Script\GameBootstrap.cs" />
     <Compile Include="Assets\Script\FireRandomPosition.cs" />
@@ -74,8 +75,10 @@
     <Compile Include="Assets\Script\HireController.cs" />
     <Compile Include="Assets\Script\CommunityManager.cs" />
     <Compile Include="Assets\Script\FireController.cs" />
+    <Compile Include="Assets\Script\TutorialHireController.cs" />
     <Compile Include="Assets\Script\quit.cs" />
     <Compile Include="Assets\Script\switchload.cs" />
+    <Compile Include="Assets\Script\TutorialFireController.cs" />
     <Compile Include="Assets\Script\BGMsetting.cs" />
     <Compile Include="Assets\audio.cs" />
     <Compile Include="Assets\Script\minimenu.cs" />
