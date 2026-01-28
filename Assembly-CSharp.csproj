@@ -78,10 +78,10 @@
     <Compile Include="Assets\Script\quit.cs" />
     <Compile Include="Assets\Script\switchload.cs" />
     <Compile Include="Assets\Script\BGMsetting.cs" />
+    <Compile Include="Assets\Script\TeamStatsDisplay.cs" />
     <Compile Include="Assets\audio.cs" />
     <Compile Include="Assets\Script\minimenu.cs" />
     <Compile Include="Assets\Script\FireSceneManagerFix.cs" />
-    <Compile Include="Assets\Script\DayDisplay.cs" />
     <Compile Include="Assets\Script\TurnBasedCombat.cs" />
     <Compile Include="Assets\Script\HireSceneManagerFix.cs" />
   </ItemGroup>

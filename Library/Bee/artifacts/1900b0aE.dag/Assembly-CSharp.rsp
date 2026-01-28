@@ -358,7 +358,6 @@
 "Assets/Script/BGMsetting.cs"
 "Assets/Script/CommunityManager.cs"
 "Assets/Script/cutscenetext.cs"
-"Assets/Script/DayDisplay.cs"
 "Assets/Script/FireController.cs"
 "Assets/Script/FireRandomPosition.cs"
 "Assets/Script/FireSceneManagerFix.cs"
@@ -371,6 +370,7 @@
 "Assets/Script/SFXsetting.cs"
 "Assets/Script/startgame.cs"
 "Assets/Script/switchload.cs"
+"Assets/Script/TeamStatsDisplay.cs"
 "Assets/Script/TurnBasedCombat.cs"
 "Assets/Script/WaveManager.cs"
 -langversion:9.0
