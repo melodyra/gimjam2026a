@@ -84,6 +84,7 @@
     <Compile Include="Assets\Script\TutorialFireController.cs" />
     <Compile Include="Assets\Script\BGMsetting.cs" />
     <Compile Include="Assets\Script\minimenu.cs" />
+    <Compile Include="Assets\Fadein.cs" />
     <Compile Include="Assets\Script\FireSceneManagerFix.cs" />
     <Compile Include="Assets\Script\TurnBasedCombat.cs" />
     <Compile Include="Assets\Script\pause.cs" />

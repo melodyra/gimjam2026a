@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 
@@ -69,7 +70,6 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
-            SceneManager.LoadScene(namaSceneTujuan); 
         }
     }
 }
