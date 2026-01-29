@@ -914,6 +914,7 @@ MonoBehaviour:
   - ...
   - ...
   - ...
+  SFX: []
   textSpeed: 0.1
   namaSceneTujuan: MainMenu
 --- !u!1 &1432109765
@@ -942,7 +943,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1432109765}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 41719df60dd819440abfa2f429d9a7a4, type: 3}
@@ -1056,7 +1057,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c04ba8eadfb05b2469ea25129b7affad, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 82cae372f00b7c044a8e13bdf411119b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
