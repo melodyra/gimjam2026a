@@ -70,6 +70,7 @@
     <Compile Include="Assets\Script\cutscenetext.cs" />
     <Compile Include="Assets\Script\SwipeControl.cs" />
     <Compile Include="Assets\Script\HireRandomSlot.cs" />
+    <Compile Include="Assets\scr.cs" />
     <Compile Include="Assets\Script\GameBootstrap.cs" />
     <Compile Include="Assets\Script\FireRandomPosition.cs" />
     <Compile Include="Assets\Script\WaveManager.cs" />

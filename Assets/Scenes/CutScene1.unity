@@ -1958,7 +1958,7 @@ MonoBehaviour:
   - MC
   - MC
   textSpeed: 0.1
-  namaSceneTujuan: HireSceneFix
+  namaSceneTujuan: Recruitment CutScene
 --- !u!1 &1432109765
 GameObject:
   m_ObjectHideFlags: 0
