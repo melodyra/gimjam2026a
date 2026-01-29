@@ -98,6 +98,7 @@ public class FireController : MonoBehaviour
     public GameObject NPC19Panel;
     public GameObject resumepanelNPC19;
     public GameObject statsNPC19;
+    public StatPreview statPreview;
 
     public static string selectedNPC;
 
@@ -398,6 +399,8 @@ public class FireController : MonoBehaviour
 
     public void kembali()
     {
+        if (statPreview != null) statPreview.HidePreview();
+        
         if (statsNPC1.activeSelf) { statsNPC1.SetActive(false); resumepanelNPC1.SetActive(true); return; }
         if (statsNPC2.activeSelf) { statsNPC2.SetActive(false); resumepanelNPC2.SetActive(true); return; }
         if (statsNPC3.activeSelf) { statsNPC3.SetActive(false); resumepanelNPC3.SetActive(true); return; }
@@ -420,5 +423,17 @@ public class FireController : MonoBehaviour
 
         siluetpanel.SetActive(true);
         MatikanSemuaPanelNPC();
+    }
+
+    public void TombolFireDiPanel()
+    {
+        if (!string.IsNullOrEmpty(selectedNPC) && statPreview != null)
+        {
+            statPreview.ShowPreview(selectedNPC);
+        }
+        else
+        {
+            Debug.LogWarning("Belum ada NPC yang dipilih atau StatPreview belum dipasang!");
+        }
     }
 }

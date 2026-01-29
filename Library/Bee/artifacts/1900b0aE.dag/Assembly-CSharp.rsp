@@ -369,8 +369,8 @@
 "Assets/Script/quit.cs"
 "Assets/Script/SFXsetting.cs"
 "Assets/Script/startgame.cs"
+"Assets/Script/StatPreview.cs"
 "Assets/Script/switchload.cs"
-"Assets/Script/TeamStatsDisplay.cs"
 "Assets/Script/TurnBasedCombat.cs"
 "Assets/Script/WaveManager.cs"
 -langversion:9.0
