@@ -914,7 +914,13 @@ MonoBehaviour:
   - ...
   - ...
   - ...
-  SFX: []
+  SFX:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   textSpeed: 0.1
   namaSceneTujuan: MainMenu
 --- !u!1 &1432109765
