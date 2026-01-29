@@ -997,8 +997,8 @@ MonoBehaviour:
   SFX:
   - {fileID: 1425475104}
   - {fileID: 1425475103}
-  - {fileID: 1425475105}
   - {fileID: 1425475106}
+  - {fileID: 1425475105}
   textSpeed: 0.1
   namaSceneTujuan: MainMenu
 --- !u!82 &1425475103
